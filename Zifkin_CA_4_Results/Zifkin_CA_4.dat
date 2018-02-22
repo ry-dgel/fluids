@@ -1,0 +1,3854 @@
+Up Neighbour:    0, 1
+Right Neighbour: 1, 0
+Current:         0, 0
+
+Up Neighbour:    0, 11
+Down Neighbour:  0, 9
+Right Neighbour: 1, 10
+Current:         0, 10
+
+Up Neighbour:    0, 21
+Down Neighbour:  0, 19
+Right Neighbour: 1, 20
+Current:         0, 20
+
+Up Neighbour:    0, 31
+Down Neighbour:  0, 29
+Right Neighbour: 1, 30
+Current:         0, 30
+
+Up Neighbour:    0, 41
+Down Neighbour:  0, 39
+Right Neighbour: 1, 40
+Current:         0, 40
+
+Up Neighbour:    0, 51
+Down Neighbour:  0, 49
+Right Neighbour: 1, 50
+Current:         0, 50
+
+Up Neighbour:    0, 61
+Down Neighbour:  0, 59
+Right Neighbour: 1, 60
+Current:         0, 60
+
+Up Neighbour:    0, 71
+Down Neighbour:  0, 69
+Right Neighbour: 1, 70
+Current:         0, 70
+
+Up Neighbour:    0, 81
+Down Neighbour:  0, 79
+Right Neighbour: 1, 80
+Current:         0, 80
+
+Up Neighbour:    0, 91
+Down Neighbour:  0, 89
+Right Neighbour: 1, 90
+Current:         0, 90
+
+Up Neighbour:    0, 101
+Down Neighbour:  0, 99
+Right Neighbour: 1, 100
+Current:         0, 100
+
+Up Neighbour:    0, 111
+Down Neighbour:  0, 109
+Right Neighbour: 1, 110
+Current:         0, 110
+
+Up Neighbour:    0, 121
+Down Neighbour:  0, 119
+Right Neighbour: 1, 120
+Current:         0, 120
+
+Up Neighbour:    0, 131
+Down Neighbour:  0, 129
+Right Neighbour: 1, 130
+Current:         0, 130
+
+Up Neighbour:    0, 141
+Down Neighbour:  0, 139
+Right Neighbour: 1, 140
+Current:         0, 140
+
+Up Neighbour:    0, 151
+Down Neighbour:  0, 149
+Right Neighbour: 1, 150
+Current:         0, 150
+
+Up Neighbour:    0, 161
+Down Neighbour:  0, 159
+Right Neighbour: 1, 160
+Current:         0, 160
+
+Up Neighbour:    0, 171
+Down Neighbour:  0, 169
+Right Neighbour: 1, 170
+Current:         0, 170
+
+Up Neighbour:    0, 181
+Down Neighbour:  0, 179
+Right Neighbour: 1, 180
+Current:         0, 180
+
+Up Neighbour:    0, 191
+Down Neighbour:  0, 189
+Right Neighbour: 1, 190
+Current:         0, 190
+
+Up Neighbour:    0, 201
+Down Neighbour:  0, 199
+Right Neighbour: 1, 200
+Current:         0, 200
+
+Up Neighbour:    0, 211
+Down Neighbour:  0, 209
+Right Neighbour: 1, 210
+Current:         0, 210
+
+Up Neighbour:    0, 221
+Down Neighbour:  0, 219
+Right Neighbour: 1, 220
+Current:         0, 220
+
+Up Neighbour:    0, 231
+Down Neighbour:  0, 229
+Right Neighbour: 1, 230
+Current:         0, 230
+
+Up Neighbour:    0, 241
+Down Neighbour:  0, 239
+Right Neighbour: 1, 240
+Current:         0, 240
+
+Up Neighbour:    0, 251
+Down Neighbour:  0, 249
+Right Neighbour: 1, 250
+Current:         0, 250
+
+Up Neighbour:    0, 261
+Down Neighbour:  0, 259
+Right Neighbour: 1, 260
+Current:         0, 260
+
+Up Neighbour:    0, 271
+Down Neighbour:  0, 269
+Right Neighbour: 1, 270
+Current:         0, 270
+
+Up Neighbour:    0, 281
+Down Neighbour:  0, 279
+Right Neighbour: 1, 280
+Current:         0, 280
+
+Up Neighbour:    0, 291
+Down Neighbour:  0, 289
+Right Neighbour: 1, 290
+Current:         0, 290
+
+Up Neighbour:    0, 301
+Down Neighbour:  0, 299
+Right Neighbour: 1, 300
+Current:         0, 300
+
+Up Neighbour:    10, 1
+Right Neighbour: 11, 0
+Left Neighbour:  9, 0
+Current:         10, 0
+
+Up Neighbour:    10, 11
+Down Neighbour:  10, 9
+Right Neighbour: 11, 10
+Left Neighbour:  9, 10
+Current:         10, 10
+
+Up Neighbour:    10, 21
+Down Neighbour:  10, 19
+Right Neighbour: 11, 20
+Left Neighbour:  9, 20
+Current:         10, 20
+
+Up Neighbour:    10, 31
+Down Neighbour:  10, 29
+Right Neighbour: 11, 30
+Left Neighbour:  9, 30
+Current:         10, 30
+
+Up Neighbour:    10, 41
+Down Neighbour:  10, 39
+Right Neighbour: 11, 40
+Left Neighbour:  9, 40
+Current:         10, 40
+
+Up Neighbour:    10, 51
+Down Neighbour:  10, 49
+Right Neighbour: 11, 50
+Left Neighbour:  9, 50
+Current:         10, 50
+
+Up Neighbour:    10, 61
+Down Neighbour:  10, 59
+Right Neighbour: 11, 60
+Left Neighbour:  9, 60
+Current:         10, 60
+
+Up Neighbour:    10, 71
+Down Neighbour:  10, 69
+Right Neighbour: 11, 70
+Left Neighbour:  9, 70
+Current:         10, 70
+
+Up Neighbour:    10, 81
+Down Neighbour:  10, 79
+Right Neighbour: 11, 80
+Left Neighbour:  9, 80
+Current:         10, 80
+
+Up Neighbour:    10, 91
+Down Neighbour:  10, 89
+Right Neighbour: 11, 90
+Left Neighbour:  9, 90
+Current:         10, 90
+
+Up Neighbour:    10, 101
+Down Neighbour:  10, 99
+Right Neighbour: 11, 100
+Left Neighbour:  9, 100
+Current:         10, 100
+
+Up Neighbour:    10, 111
+Down Neighbour:  10, 109
+Right Neighbour: 11, 110
+Left Neighbour:  9, 110
+Current:         10, 110
+
+Up Neighbour:    10, 121
+Down Neighbour:  10, 119
+Right Neighbour: 11, 120
+Left Neighbour:  9, 120
+Current:         10, 120
+
+Up Neighbour:    10, 131
+Down Neighbour:  10, 129
+Right Neighbour: 11, 130
+Left Neighbour:  9, 130
+Current:         10, 130
+
+Up Neighbour:    10, 141
+Down Neighbour:  10, 139
+Right Neighbour: 11, 140
+Left Neighbour:  9, 140
+Current:         10, 140
+
+Up Neighbour:    10, 151
+Down Neighbour:  10, 149
+Right Neighbour: 11, 150
+Left Neighbour:  9, 150
+Current:         10, 150
+
+Up Neighbour:    10, 161
+Down Neighbour:  10, 159
+Right Neighbour: 11, 160
+Left Neighbour:  9, 160
+Current:         10, 160
+
+Up Neighbour:    10, 171
+Down Neighbour:  10, 169
+Right Neighbour: 11, 170
+Left Neighbour:  9, 170
+Current:         10, 170
+
+Up Neighbour:    10, 181
+Down Neighbour:  10, 179
+Right Neighbour: 11, 180
+Left Neighbour:  9, 180
+Current:         10, 180
+
+Up Neighbour:    10, 191
+Down Neighbour:  10, 189
+Right Neighbour: 11, 190
+Left Neighbour:  9, 190
+Current:         10, 190
+
+Up Neighbour:    10, 201
+Down Neighbour:  10, 199
+Right Neighbour: 11, 200
+Left Neighbour:  9, 200
+Current:         10, 200
+
+Up Neighbour:    10, 211
+Down Neighbour:  10, 209
+Right Neighbour: 11, 210
+Left Neighbour:  9, 210
+Current:         10, 210
+
+Up Neighbour:    10, 221
+Down Neighbour:  10, 219
+Right Neighbour: 11, 220
+Left Neighbour:  9, 220
+Current:         10, 220
+
+Up Neighbour:    10, 231
+Down Neighbour:  10, 229
+Right Neighbour: 11, 230
+Left Neighbour:  9, 230
+Current:         10, 230
+
+Up Neighbour:    10, 241
+Down Neighbour:  10, 239
+Right Neighbour: 11, 240
+Left Neighbour:  9, 240
+Current:         10, 240
+
+Up Neighbour:    10, 251
+Down Neighbour:  10, 249
+Right Neighbour: 11, 250
+Left Neighbour:  9, 250
+Current:         10, 250
+
+Up Neighbour:    10, 261
+Down Neighbour:  10, 259
+Right Neighbour: 11, 260
+Left Neighbour:  9, 260
+Current:         10, 260
+
+Up Neighbour:    10, 271
+Down Neighbour:  10, 269
+Right Neighbour: 11, 270
+Left Neighbour:  9, 270
+Current:         10, 270
+
+Up Neighbour:    10, 281
+Down Neighbour:  10, 279
+Right Neighbour: 11, 280
+Left Neighbour:  9, 280
+Current:         10, 280
+
+Up Neighbour:    10, 291
+Down Neighbour:  10, 289
+Right Neighbour: 11, 290
+Left Neighbour:  9, 290
+Current:         10, 290
+
+Up Neighbour:    10, 301
+Down Neighbour:  10, 299
+Right Neighbour: 11, 300
+Left Neighbour:  9, 300
+Current:         10, 300
+
+Up Neighbour:    20, 1
+Right Neighbour: 21, 0
+Left Neighbour:  19, 0
+Current:         20, 0
+
+Up Neighbour:    20, 11
+Down Neighbour:  20, 9
+Right Neighbour: 21, 10
+Left Neighbour:  19, 10
+Current:         20, 10
+
+Up Neighbour:    20, 21
+Down Neighbour:  20, 19
+Right Neighbour: 21, 20
+Left Neighbour:  19, 20
+Current:         20, 20
+
+Up Neighbour:    20, 31
+Down Neighbour:  20, 29
+Right Neighbour: 21, 30
+Left Neighbour:  19, 30
+Current:         20, 30
+
+Up Neighbour:    20, 41
+Down Neighbour:  20, 39
+Right Neighbour: 21, 40
+Left Neighbour:  19, 40
+Current:         20, 40
+
+Up Neighbour:    20, 51
+Down Neighbour:  20, 49
+Right Neighbour: 21, 50
+Left Neighbour:  19, 50
+Current:         20, 50
+
+Up Neighbour:    20, 61
+Down Neighbour:  20, 59
+Right Neighbour: 21, 60
+Left Neighbour:  19, 60
+Current:         20, 60
+
+Up Neighbour:    20, 71
+Down Neighbour:  20, 69
+Right Neighbour: 21, 70
+Left Neighbour:  19, 70
+Current:         20, 70
+
+Up Neighbour:    20, 81
+Down Neighbour:  20, 79
+Right Neighbour: 21, 80
+Left Neighbour:  19, 80
+Current:         20, 80
+
+Up Neighbour:    20, 91
+Down Neighbour:  20, 89
+Right Neighbour: 21, 90
+Left Neighbour:  19, 90
+Current:         20, 90
+
+Up Neighbour:    20, 101
+Down Neighbour:  20, 99
+Right Neighbour: 21, 100
+Left Neighbour:  19, 100
+Current:         20, 100
+
+Up Neighbour:    20, 111
+Down Neighbour:  20, 109
+Right Neighbour: 21, 110
+Left Neighbour:  19, 110
+Current:         20, 110
+
+Up Neighbour:    20, 121
+Down Neighbour:  20, 119
+Right Neighbour: 21, 120
+Left Neighbour:  19, 120
+Current:         20, 120
+
+Up Neighbour:    20, 131
+Down Neighbour:  20, 129
+Right Neighbour: 21, 130
+Left Neighbour:  19, 130
+Current:         20, 130
+
+Up Neighbour:    20, 141
+Down Neighbour:  20, 139
+Right Neighbour: 21, 140
+Left Neighbour:  19, 140
+Current:         20, 140
+
+Up Neighbour:    20, 151
+Down Neighbour:  20, 149
+Right Neighbour: 21, 150
+Left Neighbour:  19, 150
+Current:         20, 150
+
+Up Neighbour:    20, 161
+Down Neighbour:  20, 159
+Right Neighbour: 21, 160
+Left Neighbour:  19, 160
+Current:         20, 160
+
+Up Neighbour:    20, 171
+Down Neighbour:  20, 169
+Right Neighbour: 21, 170
+Left Neighbour:  19, 170
+Current:         20, 170
+
+Up Neighbour:    20, 181
+Down Neighbour:  20, 179
+Right Neighbour: 21, 180
+Left Neighbour:  19, 180
+Current:         20, 180
+
+Up Neighbour:    20, 191
+Down Neighbour:  20, 189
+Right Neighbour: 21, 190
+Left Neighbour:  19, 190
+Current:         20, 190
+
+Up Neighbour:    20, 201
+Down Neighbour:  20, 199
+Right Neighbour: 21, 200
+Left Neighbour:  19, 200
+Current:         20, 200
+
+Up Neighbour:    20, 211
+Down Neighbour:  20, 209
+Right Neighbour: 21, 210
+Left Neighbour:  19, 210
+Current:         20, 210
+
+Up Neighbour:    20, 221
+Down Neighbour:  20, 219
+Right Neighbour: 21, 220
+Left Neighbour:  19, 220
+Current:         20, 220
+
+Up Neighbour:    20, 231
+Down Neighbour:  20, 229
+Right Neighbour: 21, 230
+Left Neighbour:  19, 230
+Current:         20, 230
+
+Up Neighbour:    20, 241
+Down Neighbour:  20, 239
+Right Neighbour: 21, 240
+Left Neighbour:  19, 240
+Current:         20, 240
+
+Up Neighbour:    20, 251
+Down Neighbour:  20, 249
+Right Neighbour: 21, 250
+Left Neighbour:  19, 250
+Current:         20, 250
+
+Up Neighbour:    20, 261
+Down Neighbour:  20, 259
+Right Neighbour: 21, 260
+Left Neighbour:  19, 260
+Current:         20, 260
+
+Up Neighbour:    20, 271
+Down Neighbour:  20, 269
+Right Neighbour: 21, 270
+Left Neighbour:  19, 270
+Current:         20, 270
+
+Up Neighbour:    20, 281
+Down Neighbour:  20, 279
+Right Neighbour: 21, 280
+Left Neighbour:  19, 280
+Current:         20, 280
+
+Up Neighbour:    20, 291
+Down Neighbour:  20, 289
+Right Neighbour: 21, 290
+Left Neighbour:  19, 290
+Current:         20, 290
+
+Up Neighbour:    20, 301
+Down Neighbour:  20, 299
+Right Neighbour: 21, 300
+Left Neighbour:  19, 300
+Current:         20, 300
+
+Up Neighbour:    30, 1
+Right Neighbour: 31, 0
+Left Neighbour:  29, 0
+Current:         30, 0
+
+Up Neighbour:    30, 11
+Down Neighbour:  30, 9
+Right Neighbour: 31, 10
+Left Neighbour:  29, 10
+Current:         30, 10
+
+Up Neighbour:    30, 21
+Down Neighbour:  30, 19
+Right Neighbour: 31, 20
+Left Neighbour:  29, 20
+Current:         30, 20
+
+Up Neighbour:    30, 31
+Down Neighbour:  30, 29
+Right Neighbour: 31, 30
+Left Neighbour:  29, 30
+Current:         30, 30
+
+Up Neighbour:    30, 41
+Down Neighbour:  30, 39
+Right Neighbour: 31, 40
+Left Neighbour:  29, 40
+Current:         30, 40
+
+Up Neighbour:    30, 51
+Down Neighbour:  30, 49
+Right Neighbour: 31, 50
+Left Neighbour:  29, 50
+Current:         30, 50
+
+Up Neighbour:    30, 61
+Down Neighbour:  30, 59
+Right Neighbour: 31, 60
+Left Neighbour:  29, 60
+Current:         30, 60
+
+Up Neighbour:    30, 71
+Down Neighbour:  30, 69
+Right Neighbour: 31, 70
+Left Neighbour:  29, 70
+Current:         30, 70
+
+Up Neighbour:    30, 81
+Down Neighbour:  30, 79
+Right Neighbour: 31, 80
+Left Neighbour:  29, 80
+Current:         30, 80
+
+Up Neighbour:    30, 91
+Down Neighbour:  30, 89
+Right Neighbour: 31, 90
+Left Neighbour:  29, 90
+Current:         30, 90
+
+Up Neighbour:    30, 101
+Down Neighbour:  30, 99
+Right Neighbour: 31, 100
+Left Neighbour:  29, 100
+Current:         30, 100
+
+Up Neighbour:    30, 111
+Down Neighbour:  30, 109
+Right Neighbour: 31, 110
+Left Neighbour:  29, 110
+Current:         30, 110
+
+Up Neighbour:    30, 121
+Down Neighbour:  30, 119
+Right Neighbour: 31, 120
+Left Neighbour:  29, 120
+Current:         30, 120
+
+Up Neighbour:    30, 131
+Down Neighbour:  30, 129
+Right Neighbour: 31, 130
+Left Neighbour:  29, 130
+Current:         30, 130
+
+Up Neighbour:    30, 141
+Down Neighbour:  30, 139
+Right Neighbour: 31, 140
+Left Neighbour:  29, 140
+Current:         30, 140
+
+Up Neighbour:    30, 151
+Down Neighbour:  30, 149
+Right Neighbour: 31, 150
+Left Neighbour:  29, 150
+Current:         30, 150
+
+Up Neighbour:    30, 161
+Down Neighbour:  30, 159
+Right Neighbour: 31, 160
+Left Neighbour:  29, 160
+Current:         30, 160
+
+Up Neighbour:    30, 171
+Down Neighbour:  30, 169
+Right Neighbour: 31, 170
+Left Neighbour:  29, 170
+Current:         30, 170
+
+Up Neighbour:    30, 181
+Down Neighbour:  30, 179
+Right Neighbour: 31, 180
+Left Neighbour:  29, 180
+Current:         30, 180
+
+Up Neighbour:    30, 191
+Down Neighbour:  30, 189
+Right Neighbour: 31, 190
+Left Neighbour:  29, 190
+Current:         30, 190
+
+Up Neighbour:    30, 201
+Down Neighbour:  30, 199
+Right Neighbour: 31, 200
+Left Neighbour:  29, 200
+Current:         30, 200
+
+Up Neighbour:    30, 211
+Down Neighbour:  30, 209
+Right Neighbour: 31, 210
+Left Neighbour:  29, 210
+Current:         30, 210
+
+Up Neighbour:    30, 221
+Down Neighbour:  30, 219
+Right Neighbour: 31, 220
+Left Neighbour:  29, 220
+Current:         30, 220
+
+Up Neighbour:    30, 231
+Down Neighbour:  30, 229
+Right Neighbour: 31, 230
+Left Neighbour:  29, 230
+Current:         30, 230
+
+Up Neighbour:    30, 241
+Down Neighbour:  30, 239
+Right Neighbour: 31, 240
+Left Neighbour:  29, 240
+Current:         30, 240
+
+Up Neighbour:    30, 251
+Down Neighbour:  30, 249
+Right Neighbour: 31, 250
+Left Neighbour:  29, 250
+Current:         30, 250
+
+Up Neighbour:    30, 261
+Down Neighbour:  30, 259
+Right Neighbour: 31, 260
+Left Neighbour:  29, 260
+Current:         30, 260
+
+Up Neighbour:    30, 271
+Down Neighbour:  30, 269
+Right Neighbour: 31, 270
+Left Neighbour:  29, 270
+Current:         30, 270
+
+Up Neighbour:    30, 281
+Down Neighbour:  30, 279
+Right Neighbour: 31, 280
+Left Neighbour:  29, 280
+Current:         30, 280
+
+Up Neighbour:    30, 291
+Down Neighbour:  30, 289
+Right Neighbour: 31, 290
+Left Neighbour:  29, 290
+Current:         30, 290
+
+Up Neighbour:    30, 301
+Down Neighbour:  30, 299
+Right Neighbour: 31, 300
+Left Neighbour:  29, 300
+Current:         30, 300
+
+Up Neighbour:    40, 1
+Right Neighbour: 41, 0
+Left Neighbour:  39, 0
+Current:         40, 0
+
+Up Neighbour:    40, 11
+Down Neighbour:  40, 9
+Right Neighbour: 41, 10
+Left Neighbour:  39, 10
+Current:         40, 10
+
+Up Neighbour:    40, 21
+Down Neighbour:  40, 19
+Right Neighbour: 41, 20
+Left Neighbour:  39, 20
+Current:         40, 20
+
+Up Neighbour:    40, 31
+Down Neighbour:  40, 29
+Right Neighbour: 41, 30
+Left Neighbour:  39, 30
+Current:         40, 30
+
+Up Neighbour:    40, 41
+Down Neighbour:  40, 39
+Right Neighbour: 41, 40
+Left Neighbour:  39, 40
+Current:         40, 40
+
+Up Neighbour:    40, 51
+Down Neighbour:  40, 49
+Right Neighbour: 41, 50
+Left Neighbour:  39, 50
+Current:         40, 50
+
+Up Neighbour:    40, 61
+Down Neighbour:  40, 59
+Right Neighbour: 41, 60
+Left Neighbour:  39, 60
+Current:         40, 60
+
+Up Neighbour:    40, 71
+Down Neighbour:  40, 69
+Right Neighbour: 41, 70
+Left Neighbour:  39, 70
+Current:         40, 70
+
+Up Neighbour:    40, 81
+Down Neighbour:  40, 79
+Right Neighbour: 41, 80
+Left Neighbour:  39, 80
+Current:         40, 80
+
+Up Neighbour:    40, 91
+Down Neighbour:  40, 89
+Right Neighbour: 41, 90
+Left Neighbour:  39, 90
+Current:         40, 90
+
+Up Neighbour:    40, 101
+Down Neighbour:  40, 99
+Right Neighbour: 41, 100
+Left Neighbour:  39, 100
+Current:         40, 100
+
+Up Neighbour:    40, 111
+Down Neighbour:  40, 109
+Right Neighbour: 41, 110
+Left Neighbour:  39, 110
+Current:         40, 110
+
+Up Neighbour:    40, 121
+Down Neighbour:  40, 119
+Right Neighbour: 41, 120
+Left Neighbour:  39, 120
+Current:         40, 120
+
+Up Neighbour:    40, 131
+Down Neighbour:  40, 129
+Right Neighbour: 41, 130
+Left Neighbour:  39, 130
+Current:         40, 130
+
+Up Neighbour:    40, 141
+Down Neighbour:  40, 139
+Right Neighbour: 41, 140
+Left Neighbour:  39, 140
+Current:         40, 140
+
+Up Neighbour:    40, 151
+Down Neighbour:  40, 149
+Right Neighbour: 41, 150
+Left Neighbour:  39, 150
+Current:         40, 150
+
+Up Neighbour:    40, 161
+Down Neighbour:  40, 159
+Right Neighbour: 41, 160
+Left Neighbour:  39, 160
+Current:         40, 160
+
+Up Neighbour:    40, 171
+Down Neighbour:  40, 169
+Right Neighbour: 41, 170
+Left Neighbour:  39, 170
+Current:         40, 170
+
+Up Neighbour:    40, 181
+Down Neighbour:  40, 179
+Right Neighbour: 41, 180
+Left Neighbour:  39, 180
+Current:         40, 180
+
+Up Neighbour:    40, 191
+Down Neighbour:  40, 189
+Right Neighbour: 41, 190
+Left Neighbour:  39, 190
+Current:         40, 190
+
+Up Neighbour:    40, 201
+Down Neighbour:  40, 199
+Right Neighbour: 41, 200
+Left Neighbour:  39, 200
+Current:         40, 200
+
+Up Neighbour:    40, 211
+Down Neighbour:  40, 209
+Right Neighbour: 41, 210
+Left Neighbour:  39, 210
+Current:         40, 210
+
+Up Neighbour:    40, 221
+Down Neighbour:  40, 219
+Right Neighbour: 41, 220
+Left Neighbour:  39, 220
+Current:         40, 220
+
+Up Neighbour:    40, 231
+Down Neighbour:  40, 229
+Right Neighbour: 41, 230
+Left Neighbour:  39, 230
+Current:         40, 230
+
+Up Neighbour:    40, 241
+Down Neighbour:  40, 239
+Right Neighbour: 41, 240
+Left Neighbour:  39, 240
+Current:         40, 240
+
+Up Neighbour:    40, 251
+Down Neighbour:  40, 249
+Right Neighbour: 41, 250
+Left Neighbour:  39, 250
+Current:         40, 250
+
+Up Neighbour:    40, 261
+Down Neighbour:  40, 259
+Right Neighbour: 41, 260
+Left Neighbour:  39, 260
+Current:         40, 260
+
+Up Neighbour:    40, 271
+Down Neighbour:  40, 269
+Right Neighbour: 41, 270
+Left Neighbour:  39, 270
+Current:         40, 270
+
+Up Neighbour:    40, 281
+Down Neighbour:  40, 279
+Right Neighbour: 41, 280
+Left Neighbour:  39, 280
+Current:         40, 280
+
+Up Neighbour:    40, 291
+Down Neighbour:  40, 289
+Right Neighbour: 41, 290
+Left Neighbour:  39, 290
+Current:         40, 290
+
+Up Neighbour:    40, 301
+Down Neighbour:  40, 299
+Right Neighbour: 41, 300
+Left Neighbour:  39, 300
+Current:         40, 300
+
+Up Neighbour:    50, 1
+Right Neighbour: 51, 0
+Left Neighbour:  49, 0
+Current:         50, 0
+
+Up Neighbour:    50, 11
+Down Neighbour:  50, 9
+Right Neighbour: 51, 10
+Left Neighbour:  49, 10
+Current:         50, 10
+
+Up Neighbour:    50, 21
+Down Neighbour:  50, 19
+Right Neighbour: 51, 20
+Left Neighbour:  49, 20
+Current:         50, 20
+
+Up Neighbour:    50, 31
+Down Neighbour:  50, 29
+Right Neighbour: 51, 30
+Left Neighbour:  49, 30
+Current:         50, 30
+
+Up Neighbour:    50, 41
+Down Neighbour:  50, 39
+Right Neighbour: 51, 40
+Left Neighbour:  49, 40
+Current:         50, 40
+
+Up Neighbour:    50, 51
+Down Neighbour:  50, 49
+Right Neighbour: 51, 50
+Left Neighbour:  49, 50
+Current:         50, 50
+
+Up Neighbour:    50, 61
+Down Neighbour:  50, 59
+Right Neighbour: 51, 60
+Left Neighbour:  49, 60
+Current:         50, 60
+
+Up Neighbour:    50, 71
+Down Neighbour:  50, 69
+Right Neighbour: 51, 70
+Left Neighbour:  49, 70
+Current:         50, 70
+
+Up Neighbour:    50, 81
+Down Neighbour:  50, 79
+Right Neighbour: 51, 80
+Left Neighbour:  49, 80
+Current:         50, 80
+
+Up Neighbour:    50, 91
+Down Neighbour:  50, 89
+Right Neighbour: 51, 90
+Left Neighbour:  49, 90
+Current:         50, 90
+
+Up Neighbour:    50, 101
+Down Neighbour:  50, 99
+Right Neighbour: 51, 100
+Left Neighbour:  49, 100
+Current:         50, 100
+
+Up Neighbour:    50, 111
+Down Neighbour:  50, 109
+Right Neighbour: 51, 110
+Left Neighbour:  49, 110
+Current:         50, 110
+
+Up Neighbour:    50, 121
+Down Neighbour:  50, 119
+Right Neighbour: 51, 120
+Left Neighbour:  49, 120
+Current:         50, 120
+
+Up Neighbour:    50, 131
+Down Neighbour:  50, 129
+Right Neighbour: 51, 130
+Left Neighbour:  49, 130
+Current:         50, 130
+
+Up Neighbour:    50, 141
+Down Neighbour:  50, 139
+Right Neighbour: 51, 140
+Left Neighbour:  49, 140
+Current:         50, 140
+
+Up Neighbour:    50, 151
+Down Neighbour:  50, 149
+Right Neighbour: 51, 150
+Left Neighbour:  49, 150
+Current:         50, 150
+
+Up Neighbour:    50, 161
+Down Neighbour:  50, 159
+Right Neighbour: 51, 160
+Left Neighbour:  49, 160
+Current:         50, 160
+
+Up Neighbour:    50, 171
+Down Neighbour:  50, 169
+Right Neighbour: 51, 170
+Left Neighbour:  49, 170
+Current:         50, 170
+
+Up Neighbour:    50, 181
+Down Neighbour:  50, 179
+Right Neighbour: 51, 180
+Left Neighbour:  49, 180
+Current:         50, 180
+
+Up Neighbour:    50, 191
+Down Neighbour:  50, 189
+Right Neighbour: 51, 190
+Left Neighbour:  49, 190
+Current:         50, 190
+
+Up Neighbour:    50, 201
+Down Neighbour:  50, 199
+Right Neighbour: 51, 200
+Left Neighbour:  49, 200
+Current:         50, 200
+
+Up Neighbour:    50, 211
+Down Neighbour:  50, 209
+Right Neighbour: 51, 210
+Left Neighbour:  49, 210
+Current:         50, 210
+
+Up Neighbour:    50, 221
+Down Neighbour:  50, 219
+Right Neighbour: 51, 220
+Left Neighbour:  49, 220
+Current:         50, 220
+
+Up Neighbour:    50, 231
+Down Neighbour:  50, 229
+Right Neighbour: 51, 230
+Left Neighbour:  49, 230
+Current:         50, 230
+
+Up Neighbour:    50, 241
+Down Neighbour:  50, 239
+Right Neighbour: 51, 240
+Left Neighbour:  49, 240
+Current:         50, 240
+
+Up Neighbour:    50, 251
+Down Neighbour:  50, 249
+Right Neighbour: 51, 250
+Left Neighbour:  49, 250
+Current:         50, 250
+
+Up Neighbour:    50, 261
+Down Neighbour:  50, 259
+Right Neighbour: 51, 260
+Left Neighbour:  49, 260
+Current:         50, 260
+
+Up Neighbour:    50, 271
+Down Neighbour:  50, 269
+Right Neighbour: 51, 270
+Left Neighbour:  49, 270
+Current:         50, 270
+
+Up Neighbour:    50, 281
+Down Neighbour:  50, 279
+Right Neighbour: 51, 280
+Left Neighbour:  49, 280
+Current:         50, 280
+
+Up Neighbour:    50, 291
+Down Neighbour:  50, 289
+Right Neighbour: 51, 290
+Left Neighbour:  49, 290
+Current:         50, 290
+
+Up Neighbour:    50, 301
+Down Neighbour:  50, 299
+Right Neighbour: 51, 300
+Left Neighbour:  49, 300
+Current:         50, 300
+
+Up Neighbour:    60, 1
+Right Neighbour: 61, 0
+Left Neighbour:  59, 0
+Current:         60, 0
+
+Up Neighbour:    60, 11
+Down Neighbour:  60, 9
+Right Neighbour: 61, 10
+Left Neighbour:  59, 10
+Current:         60, 10
+
+Up Neighbour:    60, 21
+Down Neighbour:  60, 19
+Right Neighbour: 61, 20
+Left Neighbour:  59, 20
+Current:         60, 20
+
+Up Neighbour:    60, 31
+Down Neighbour:  60, 29
+Right Neighbour: 61, 30
+Left Neighbour:  59, 30
+Current:         60, 30
+
+Up Neighbour:    60, 41
+Down Neighbour:  60, 39
+Right Neighbour: 61, 40
+Left Neighbour:  59, 40
+Current:         60, 40
+
+Up Neighbour:    60, 51
+Down Neighbour:  60, 49
+Right Neighbour: 61, 50
+Left Neighbour:  59, 50
+Current:         60, 50
+
+Up Neighbour:    60, 61
+Down Neighbour:  60, 59
+Right Neighbour: 61, 60
+Left Neighbour:  59, 60
+Current:         60, 60
+
+Up Neighbour:    60, 71
+Down Neighbour:  60, 69
+Right Neighbour: 61, 70
+Left Neighbour:  59, 70
+Current:         60, 70
+
+Up Neighbour:    60, 81
+Down Neighbour:  60, 79
+Right Neighbour: 61, 80
+Left Neighbour:  59, 80
+Current:         60, 80
+
+Up Neighbour:    60, 91
+Down Neighbour:  60, 89
+Right Neighbour: 61, 90
+Left Neighbour:  59, 90
+Current:         60, 90
+
+Up Neighbour:    60, 101
+Down Neighbour:  60, 99
+Right Neighbour: 61, 100
+Left Neighbour:  59, 100
+Current:         60, 100
+
+Up Neighbour:    60, 111
+Down Neighbour:  60, 109
+Right Neighbour: 61, 110
+Left Neighbour:  59, 110
+Current:         60, 110
+
+Up Neighbour:    60, 121
+Down Neighbour:  60, 119
+Right Neighbour: 61, 120
+Left Neighbour:  59, 120
+Current:         60, 120
+
+Up Neighbour:    60, 131
+Down Neighbour:  60, 129
+Right Neighbour: 61, 130
+Left Neighbour:  59, 130
+Current:         60, 130
+
+Up Neighbour:    60, 141
+Down Neighbour:  60, 139
+Right Neighbour: 61, 140
+Left Neighbour:  59, 140
+Current:         60, 140
+
+Up Neighbour:    60, 151
+Down Neighbour:  60, 149
+Right Neighbour: 61, 150
+Left Neighbour:  59, 150
+Current:         60, 150
+
+Up Neighbour:    60, 161
+Down Neighbour:  60, 159
+Right Neighbour: 61, 160
+Left Neighbour:  59, 160
+Current:         60, 160
+
+Up Neighbour:    60, 171
+Down Neighbour:  60, 169
+Right Neighbour: 61, 170
+Left Neighbour:  59, 170
+Current:         60, 170
+
+Up Neighbour:    60, 181
+Down Neighbour:  60, 179
+Right Neighbour: 61, 180
+Left Neighbour:  59, 180
+Current:         60, 180
+
+Up Neighbour:    60, 191
+Down Neighbour:  60, 189
+Right Neighbour: 61, 190
+Left Neighbour:  59, 190
+Current:         60, 190
+
+Up Neighbour:    60, 201
+Down Neighbour:  60, 199
+Right Neighbour: 61, 200
+Left Neighbour:  59, 200
+Current:         60, 200
+
+Up Neighbour:    60, 211
+Down Neighbour:  60, 209
+Right Neighbour: 61, 210
+Left Neighbour:  59, 210
+Current:         60, 210
+
+Up Neighbour:    60, 221
+Down Neighbour:  60, 219
+Right Neighbour: 61, 220
+Left Neighbour:  59, 220
+Current:         60, 220
+
+Up Neighbour:    60, 231
+Down Neighbour:  60, 229
+Right Neighbour: 61, 230
+Left Neighbour:  59, 230
+Current:         60, 230
+
+Up Neighbour:    60, 241
+Down Neighbour:  60, 239
+Right Neighbour: 61, 240
+Left Neighbour:  59, 240
+Current:         60, 240
+
+Up Neighbour:    60, 251
+Down Neighbour:  60, 249
+Right Neighbour: 61, 250
+Left Neighbour:  59, 250
+Current:         60, 250
+
+Up Neighbour:    60, 261
+Down Neighbour:  60, 259
+Right Neighbour: 61, 260
+Left Neighbour:  59, 260
+Current:         60, 260
+
+Up Neighbour:    60, 271
+Down Neighbour:  60, 269
+Right Neighbour: 61, 270
+Left Neighbour:  59, 270
+Current:         60, 270
+
+Up Neighbour:    60, 281
+Down Neighbour:  60, 279
+Right Neighbour: 61, 280
+Left Neighbour:  59, 280
+Current:         60, 280
+
+Up Neighbour:    60, 291
+Down Neighbour:  60, 289
+Right Neighbour: 61, 290
+Left Neighbour:  59, 290
+Current:         60, 290
+
+Up Neighbour:    60, 301
+Down Neighbour:  60, 299
+Right Neighbour: 61, 300
+Left Neighbour:  59, 300
+Current:         60, 300
+
+Up Neighbour:    70, 1
+Right Neighbour: 71, 0
+Left Neighbour:  69, 0
+Current:         70, 0
+
+Up Neighbour:    70, 11
+Down Neighbour:  70, 9
+Right Neighbour: 71, 10
+Left Neighbour:  69, 10
+Current:         70, 10
+
+Up Neighbour:    70, 21
+Down Neighbour:  70, 19
+Right Neighbour: 71, 20
+Left Neighbour:  69, 20
+Current:         70, 20
+
+Up Neighbour:    70, 31
+Down Neighbour:  70, 29
+Right Neighbour: 71, 30
+Left Neighbour:  69, 30
+Current:         70, 30
+
+Up Neighbour:    70, 41
+Down Neighbour:  70, 39
+Right Neighbour: 71, 40
+Left Neighbour:  69, 40
+Current:         70, 40
+
+Up Neighbour:    70, 51
+Down Neighbour:  70, 49
+Right Neighbour: 71, 50
+Left Neighbour:  69, 50
+Current:         70, 50
+
+Up Neighbour:    70, 61
+Down Neighbour:  70, 59
+Right Neighbour: 71, 60
+Left Neighbour:  69, 60
+Current:         70, 60
+
+Up Neighbour:    70, 71
+Down Neighbour:  70, 69
+Right Neighbour: 71, 70
+Left Neighbour:  69, 70
+Current:         70, 70
+
+Up Neighbour:    70, 81
+Down Neighbour:  70, 79
+Right Neighbour: 71, 80
+Left Neighbour:  69, 80
+Current:         70, 80
+
+Up Neighbour:    70, 91
+Down Neighbour:  70, 89
+Right Neighbour: 71, 90
+Left Neighbour:  69, 90
+Current:         70, 90
+
+Up Neighbour:    70, 101
+Down Neighbour:  70, 99
+Right Neighbour: 71, 100
+Left Neighbour:  69, 100
+Current:         70, 100
+
+Up Neighbour:    70, 111
+Down Neighbour:  70, 109
+Right Neighbour: 71, 110
+Left Neighbour:  69, 110
+Current:         70, 110
+
+Up Neighbour:    70, 121
+Down Neighbour:  70, 119
+Right Neighbour: 71, 120
+Left Neighbour:  69, 120
+Current:         70, 120
+
+Up Neighbour:    70, 131
+Down Neighbour:  70, 129
+Right Neighbour: 71, 130
+Left Neighbour:  69, 130
+Current:         70, 130
+
+Up Neighbour:    70, 141
+Down Neighbour:  70, 139
+Right Neighbour: 71, 140
+Left Neighbour:  69, 140
+Current:         70, 140
+
+Up Neighbour:    70, 151
+Down Neighbour:  70, 149
+Right Neighbour: 71, 150
+Left Neighbour:  69, 150
+Current:         70, 150
+
+Up Neighbour:    70, 161
+Down Neighbour:  70, 159
+Right Neighbour: 71, 160
+Left Neighbour:  69, 160
+Current:         70, 160
+
+Up Neighbour:    70, 171
+Down Neighbour:  70, 169
+Right Neighbour: 71, 170
+Left Neighbour:  69, 170
+Current:         70, 170
+
+Up Neighbour:    70, 181
+Down Neighbour:  70, 179
+Right Neighbour: 71, 180
+Left Neighbour:  69, 180
+Current:         70, 180
+
+Up Neighbour:    70, 191
+Down Neighbour:  70, 189
+Right Neighbour: 71, 190
+Left Neighbour:  69, 190
+Current:         70, 190
+
+Up Neighbour:    70, 201
+Down Neighbour:  70, 199
+Right Neighbour: 71, 200
+Left Neighbour:  69, 200
+Current:         70, 200
+
+Up Neighbour:    70, 211
+Down Neighbour:  70, 209
+Right Neighbour: 71, 210
+Left Neighbour:  69, 210
+Current:         70, 210
+
+Up Neighbour:    70, 221
+Down Neighbour:  70, 219
+Right Neighbour: 71, 220
+Left Neighbour:  69, 220
+Current:         70, 220
+
+Up Neighbour:    70, 231
+Down Neighbour:  70, 229
+Right Neighbour: 71, 230
+Left Neighbour:  69, 230
+Current:         70, 230
+
+Up Neighbour:    70, 241
+Down Neighbour:  70, 239
+Right Neighbour: 71, 240
+Left Neighbour:  69, 240
+Current:         70, 240
+
+Up Neighbour:    70, 251
+Down Neighbour:  70, 249
+Right Neighbour: 71, 250
+Left Neighbour:  69, 250
+Current:         70, 250
+
+Up Neighbour:    70, 261
+Down Neighbour:  70, 259
+Right Neighbour: 71, 260
+Left Neighbour:  69, 260
+Current:         70, 260
+
+Up Neighbour:    70, 271
+Down Neighbour:  70, 269
+Right Neighbour: 71, 270
+Left Neighbour:  69, 270
+Current:         70, 270
+
+Up Neighbour:    70, 281
+Down Neighbour:  70, 279
+Right Neighbour: 71, 280
+Left Neighbour:  69, 280
+Current:         70, 280
+
+Up Neighbour:    70, 291
+Down Neighbour:  70, 289
+Right Neighbour: 71, 290
+Left Neighbour:  69, 290
+Current:         70, 290
+
+Up Neighbour:    70, 301
+Down Neighbour:  70, 299
+Right Neighbour: 71, 300
+Left Neighbour:  69, 300
+Current:         70, 300
+
+Up Neighbour:    80, 1
+Right Neighbour: 81, 0
+Left Neighbour:  79, 0
+Current:         80, 0
+
+Up Neighbour:    80, 11
+Down Neighbour:  80, 9
+Right Neighbour: 81, 10
+Left Neighbour:  79, 10
+Current:         80, 10
+
+Up Neighbour:    80, 21
+Down Neighbour:  80, 19
+Right Neighbour: 81, 20
+Left Neighbour:  79, 20
+Current:         80, 20
+
+Up Neighbour:    80, 31
+Down Neighbour:  80, 29
+Right Neighbour: 81, 30
+Left Neighbour:  79, 30
+Current:         80, 30
+
+Up Neighbour:    80, 41
+Down Neighbour:  80, 39
+Right Neighbour: 81, 40
+Left Neighbour:  79, 40
+Current:         80, 40
+
+Up Neighbour:    80, 51
+Down Neighbour:  80, 49
+Right Neighbour: 81, 50
+Left Neighbour:  79, 50
+Current:         80, 50
+
+Up Neighbour:    80, 61
+Down Neighbour:  80, 59
+Right Neighbour: 81, 60
+Left Neighbour:  79, 60
+Current:         80, 60
+
+Up Neighbour:    80, 71
+Down Neighbour:  80, 69
+Right Neighbour: 81, 70
+Left Neighbour:  79, 70
+Current:         80, 70
+
+Up Neighbour:    80, 81
+Down Neighbour:  80, 79
+Right Neighbour: 81, 80
+Left Neighbour:  79, 80
+Current:         80, 80
+
+Up Neighbour:    80, 91
+Down Neighbour:  80, 89
+Right Neighbour: 81, 90
+Left Neighbour:  79, 90
+Current:         80, 90
+
+Up Neighbour:    80, 101
+Down Neighbour:  80, 99
+Right Neighbour: 81, 100
+Left Neighbour:  79, 100
+Current:         80, 100
+
+Up Neighbour:    80, 111
+Down Neighbour:  80, 109
+Right Neighbour: 81, 110
+Left Neighbour:  79, 110
+Current:         80, 110
+
+Up Neighbour:    80, 121
+Down Neighbour:  80, 119
+Right Neighbour: 81, 120
+Left Neighbour:  79, 120
+Current:         80, 120
+
+Up Neighbour:    80, 131
+Down Neighbour:  80, 129
+Right Neighbour: 81, 130
+Left Neighbour:  79, 130
+Current:         80, 130
+
+Up Neighbour:    80, 141
+Down Neighbour:  80, 139
+Right Neighbour: 81, 140
+Left Neighbour:  79, 140
+Current:         80, 140
+
+Up Neighbour:    80, 151
+Down Neighbour:  80, 149
+Right Neighbour: 81, 150
+Left Neighbour:  79, 150
+Current:         80, 150
+
+Up Neighbour:    80, 161
+Down Neighbour:  80, 159
+Right Neighbour: 81, 160
+Left Neighbour:  79, 160
+Current:         80, 160
+
+Up Neighbour:    80, 171
+Down Neighbour:  80, 169
+Right Neighbour: 81, 170
+Left Neighbour:  79, 170
+Current:         80, 170
+
+Up Neighbour:    80, 181
+Down Neighbour:  80, 179
+Right Neighbour: 81, 180
+Left Neighbour:  79, 180
+Current:         80, 180
+
+Up Neighbour:    80, 191
+Down Neighbour:  80, 189
+Right Neighbour: 81, 190
+Left Neighbour:  79, 190
+Current:         80, 190
+
+Up Neighbour:    80, 201
+Down Neighbour:  80, 199
+Right Neighbour: 81, 200
+Left Neighbour:  79, 200
+Current:         80, 200
+
+Up Neighbour:    80, 211
+Down Neighbour:  80, 209
+Right Neighbour: 81, 210
+Left Neighbour:  79, 210
+Current:         80, 210
+
+Up Neighbour:    80, 221
+Down Neighbour:  80, 219
+Right Neighbour: 81, 220
+Left Neighbour:  79, 220
+Current:         80, 220
+
+Up Neighbour:    80, 231
+Down Neighbour:  80, 229
+Right Neighbour: 81, 230
+Left Neighbour:  79, 230
+Current:         80, 230
+
+Up Neighbour:    80, 241
+Down Neighbour:  80, 239
+Right Neighbour: 81, 240
+Left Neighbour:  79, 240
+Current:         80, 240
+
+Up Neighbour:    80, 251
+Down Neighbour:  80, 249
+Right Neighbour: 81, 250
+Left Neighbour:  79, 250
+Current:         80, 250
+
+Up Neighbour:    80, 261
+Down Neighbour:  80, 259
+Right Neighbour: 81, 260
+Left Neighbour:  79, 260
+Current:         80, 260
+
+Up Neighbour:    80, 271
+Down Neighbour:  80, 269
+Right Neighbour: 81, 270
+Left Neighbour:  79, 270
+Current:         80, 270
+
+Up Neighbour:    80, 281
+Down Neighbour:  80, 279
+Right Neighbour: 81, 280
+Left Neighbour:  79, 280
+Current:         80, 280
+
+Up Neighbour:    80, 291
+Down Neighbour:  80, 289
+Right Neighbour: 81, 290
+Left Neighbour:  79, 290
+Current:         80, 290
+
+Up Neighbour:    80, 301
+Down Neighbour:  80, 299
+Right Neighbour: 81, 300
+Left Neighbour:  79, 300
+Current:         80, 300
+
+Up Neighbour:    90, 1
+Right Neighbour: 91, 0
+Left Neighbour:  89, 0
+Current:         90, 0
+
+Up Neighbour:    90, 11
+Down Neighbour:  90, 9
+Right Neighbour: 91, 10
+Left Neighbour:  89, 10
+Current:         90, 10
+
+Up Neighbour:    90, 21
+Down Neighbour:  90, 19
+Right Neighbour: 91, 20
+Left Neighbour:  89, 20
+Current:         90, 20
+
+Up Neighbour:    90, 31
+Down Neighbour:  90, 29
+Right Neighbour: 91, 30
+Left Neighbour:  89, 30
+Current:         90, 30
+
+Up Neighbour:    90, 41
+Down Neighbour:  90, 39
+Right Neighbour: 91, 40
+Left Neighbour:  89, 40
+Current:         90, 40
+
+Up Neighbour:    90, 51
+Down Neighbour:  90, 49
+Right Neighbour: 91, 50
+Left Neighbour:  89, 50
+Current:         90, 50
+
+Up Neighbour:    90, 61
+Down Neighbour:  90, 59
+Right Neighbour: 91, 60
+Left Neighbour:  89, 60
+Current:         90, 60
+
+Up Neighbour:    90, 71
+Down Neighbour:  90, 69
+Right Neighbour: 91, 70
+Left Neighbour:  89, 70
+Current:         90, 70
+
+Up Neighbour:    90, 81
+Down Neighbour:  90, 79
+Right Neighbour: 91, 80
+Left Neighbour:  89, 80
+Current:         90, 80
+
+Up Neighbour:    90, 91
+Down Neighbour:  90, 89
+Right Neighbour: 91, 90
+Left Neighbour:  89, 90
+Current:         90, 90
+
+Up Neighbour:    90, 101
+Down Neighbour:  90, 99
+Right Neighbour: 91, 100
+Left Neighbour:  89, 100
+Current:         90, 100
+
+Up Neighbour:    90, 111
+Down Neighbour:  90, 109
+Right Neighbour: 91, 110
+Left Neighbour:  89, 110
+Current:         90, 110
+
+Up Neighbour:    90, 121
+Down Neighbour:  90, 119
+Right Neighbour: 91, 120
+Left Neighbour:  89, 120
+Current:         90, 120
+
+Up Neighbour:    90, 131
+Down Neighbour:  90, 129
+Right Neighbour: 91, 130
+Left Neighbour:  89, 130
+Current:         90, 130
+
+Up Neighbour:    90, 141
+Down Neighbour:  90, 139
+Right Neighbour: 91, 140
+Left Neighbour:  89, 140
+Current:         90, 140
+
+Up Neighbour:    90, 151
+Down Neighbour:  90, 149
+Right Neighbour: 91, 150
+Left Neighbour:  89, 150
+Current:         90, 150
+
+Up Neighbour:    90, 161
+Down Neighbour:  90, 159
+Right Neighbour: 91, 160
+Left Neighbour:  89, 160
+Current:         90, 160
+
+Up Neighbour:    90, 171
+Down Neighbour:  90, 169
+Right Neighbour: 91, 170
+Left Neighbour:  89, 170
+Current:         90, 170
+
+Up Neighbour:    90, 181
+Down Neighbour:  90, 179
+Right Neighbour: 91, 180
+Left Neighbour:  89, 180
+Current:         90, 180
+
+Up Neighbour:    90, 191
+Down Neighbour:  90, 189
+Right Neighbour: 91, 190
+Left Neighbour:  89, 190
+Current:         90, 190
+
+Up Neighbour:    90, 201
+Down Neighbour:  90, 199
+Right Neighbour: 91, 200
+Left Neighbour:  89, 200
+Current:         90, 200
+
+Up Neighbour:    90, 211
+Down Neighbour:  90, 209
+Right Neighbour: 91, 210
+Left Neighbour:  89, 210
+Current:         90, 210
+
+Up Neighbour:    90, 221
+Down Neighbour:  90, 219
+Right Neighbour: 91, 220
+Left Neighbour:  89, 220
+Current:         90, 220
+
+Up Neighbour:    90, 231
+Down Neighbour:  90, 229
+Right Neighbour: 91, 230
+Left Neighbour:  89, 230
+Current:         90, 230
+
+Up Neighbour:    90, 241
+Down Neighbour:  90, 239
+Right Neighbour: 91, 240
+Left Neighbour:  89, 240
+Current:         90, 240
+
+Up Neighbour:    90, 251
+Down Neighbour:  90, 249
+Right Neighbour: 91, 250
+Left Neighbour:  89, 250
+Current:         90, 250
+
+Up Neighbour:    90, 261
+Down Neighbour:  90, 259
+Right Neighbour: 91, 260
+Left Neighbour:  89, 260
+Current:         90, 260
+
+Up Neighbour:    90, 271
+Down Neighbour:  90, 269
+Right Neighbour: 91, 270
+Left Neighbour:  89, 270
+Current:         90, 270
+
+Up Neighbour:    90, 281
+Down Neighbour:  90, 279
+Right Neighbour: 91, 280
+Left Neighbour:  89, 280
+Current:         90, 280
+
+Up Neighbour:    90, 291
+Down Neighbour:  90, 289
+Right Neighbour: 91, 290
+Left Neighbour:  89, 290
+Current:         90, 290
+
+Up Neighbour:    90, 301
+Down Neighbour:  90, 299
+Right Neighbour: 91, 300
+Left Neighbour:  89, 300
+Current:         90, 300
+
+Up Neighbour:    100, 1
+Right Neighbour: 101, 0
+Left Neighbour:  99, 0
+Current:         100, 0
+
+Up Neighbour:    100, 11
+Down Neighbour:  100, 9
+Right Neighbour: 101, 10
+Left Neighbour:  99, 10
+Current:         100, 10
+
+Up Neighbour:    100, 21
+Down Neighbour:  100, 19
+Right Neighbour: 101, 20
+Left Neighbour:  99, 20
+Current:         100, 20
+
+Up Neighbour:    100, 31
+Down Neighbour:  100, 29
+Right Neighbour: 101, 30
+Left Neighbour:  99, 30
+Current:         100, 30
+
+Up Neighbour:    100, 41
+Down Neighbour:  100, 39
+Right Neighbour: 101, 40
+Left Neighbour:  99, 40
+Current:         100, 40
+
+Up Neighbour:    100, 51
+Down Neighbour:  100, 49
+Right Neighbour: 101, 50
+Left Neighbour:  99, 50
+Current:         100, 50
+
+Up Neighbour:    100, 61
+Down Neighbour:  100, 59
+Right Neighbour: 101, 60
+Left Neighbour:  99, 60
+Current:         100, 60
+
+Up Neighbour:    100, 71
+Down Neighbour:  100, 69
+Right Neighbour: 101, 70
+Left Neighbour:  99, 70
+Current:         100, 70
+
+Up Neighbour:    100, 81
+Down Neighbour:  100, 79
+Right Neighbour: 101, 80
+Left Neighbour:  99, 80
+Current:         100, 80
+
+Up Neighbour:    100, 91
+Down Neighbour:  100, 89
+Right Neighbour: 101, 90
+Left Neighbour:  99, 90
+Current:         100, 90
+
+Up Neighbour:    100, 101
+Down Neighbour:  100, 99
+Right Neighbour: 101, 100
+Left Neighbour:  99, 100
+Current:         100, 100
+
+Up Neighbour:    100, 111
+Down Neighbour:  100, 109
+Right Neighbour: 101, 110
+Left Neighbour:  99, 110
+Current:         100, 110
+
+Up Neighbour:    100, 121
+Down Neighbour:  100, 119
+Right Neighbour: 101, 120
+Left Neighbour:  99, 120
+Current:         100, 120
+
+Up Neighbour:    100, 131
+Down Neighbour:  100, 129
+Right Neighbour: 101, 130
+Left Neighbour:  99, 130
+Current:         100, 130
+
+Up Neighbour:    100, 141
+Down Neighbour:  100, 139
+Right Neighbour: 101, 140
+Left Neighbour:  99, 140
+Current:         100, 140
+
+Up Neighbour:    100, 151
+Down Neighbour:  100, 149
+Right Neighbour: 101, 150
+Left Neighbour:  99, 150
+Current:         100, 150
+
+Up Neighbour:    100, 161
+Down Neighbour:  100, 159
+Right Neighbour: 101, 160
+Left Neighbour:  99, 160
+Current:         100, 160
+
+Up Neighbour:    100, 171
+Down Neighbour:  100, 169
+Right Neighbour: 101, 170
+Left Neighbour:  99, 170
+Current:         100, 170
+
+Up Neighbour:    100, 181
+Down Neighbour:  100, 179
+Right Neighbour: 101, 180
+Left Neighbour:  99, 180
+Current:         100, 180
+
+Up Neighbour:    100, 191
+Down Neighbour:  100, 189
+Right Neighbour: 101, 190
+Left Neighbour:  99, 190
+Current:         100, 190
+
+Up Neighbour:    100, 201
+Down Neighbour:  100, 199
+Right Neighbour: 101, 200
+Left Neighbour:  99, 200
+Current:         100, 200
+
+Up Neighbour:    100, 211
+Down Neighbour:  100, 209
+Right Neighbour: 101, 210
+Left Neighbour:  99, 210
+Current:         100, 210
+
+Up Neighbour:    100, 221
+Down Neighbour:  100, 219
+Right Neighbour: 101, 220
+Left Neighbour:  99, 220
+Current:         100, 220
+
+Up Neighbour:    100, 231
+Down Neighbour:  100, 229
+Right Neighbour: 101, 230
+Left Neighbour:  99, 230
+Current:         100, 230
+
+Up Neighbour:    100, 241
+Down Neighbour:  100, 239
+Right Neighbour: 101, 240
+Left Neighbour:  99, 240
+Current:         100, 240
+
+Up Neighbour:    100, 251
+Down Neighbour:  100, 249
+Right Neighbour: 101, 250
+Left Neighbour:  99, 250
+Current:         100, 250
+
+Up Neighbour:    100, 261
+Down Neighbour:  100, 259
+Right Neighbour: 101, 260
+Left Neighbour:  99, 260
+Current:         100, 260
+
+Up Neighbour:    100, 271
+Down Neighbour:  100, 269
+Right Neighbour: 101, 270
+Left Neighbour:  99, 270
+Current:         100, 270
+
+Up Neighbour:    100, 281
+Down Neighbour:  100, 279
+Right Neighbour: 101, 280
+Left Neighbour:  99, 280
+Current:         100, 280
+
+Up Neighbour:    100, 291
+Down Neighbour:  100, 289
+Right Neighbour: 101, 290
+Left Neighbour:  99, 290
+Current:         100, 290
+
+Up Neighbour:    100, 301
+Down Neighbour:  100, 299
+Right Neighbour: 101, 300
+Left Neighbour:  99, 300
+Current:         100, 300
+
+Up Neighbour:    110, 1
+Right Neighbour: 111, 0
+Left Neighbour:  109, 0
+Current:         110, 0
+
+Up Neighbour:    110, 11
+Down Neighbour:  110, 9
+Right Neighbour: 111, 10
+Left Neighbour:  109, 10
+Current:         110, 10
+
+Up Neighbour:    110, 21
+Down Neighbour:  110, 19
+Right Neighbour: 111, 20
+Left Neighbour:  109, 20
+Current:         110, 20
+
+Up Neighbour:    110, 31
+Down Neighbour:  110, 29
+Right Neighbour: 111, 30
+Left Neighbour:  109, 30
+Current:         110, 30
+
+Up Neighbour:    110, 41
+Down Neighbour:  110, 39
+Right Neighbour: 111, 40
+Left Neighbour:  109, 40
+Current:         110, 40
+
+Up Neighbour:    110, 51
+Down Neighbour:  110, 49
+Right Neighbour: 111, 50
+Left Neighbour:  109, 50
+Current:         110, 50
+
+Up Neighbour:    110, 61
+Down Neighbour:  110, 59
+Right Neighbour: 111, 60
+Left Neighbour:  109, 60
+Current:         110, 60
+
+Up Neighbour:    110, 71
+Down Neighbour:  110, 69
+Right Neighbour: 111, 70
+Left Neighbour:  109, 70
+Current:         110, 70
+
+Up Neighbour:    110, 81
+Down Neighbour:  110, 79
+Right Neighbour: 111, 80
+Left Neighbour:  109, 80
+Current:         110, 80
+
+Up Neighbour:    110, 91
+Down Neighbour:  110, 89
+Right Neighbour: 111, 90
+Left Neighbour:  109, 90
+Current:         110, 90
+
+Up Neighbour:    110, 101
+Down Neighbour:  110, 99
+Right Neighbour: 111, 100
+Left Neighbour:  109, 100
+Current:         110, 100
+
+Up Neighbour:    110, 111
+Down Neighbour:  110, 109
+Right Neighbour: 111, 110
+Left Neighbour:  109, 110
+Current:         110, 110
+
+Up Neighbour:    110, 121
+Down Neighbour:  110, 119
+Right Neighbour: 111, 120
+Left Neighbour:  109, 120
+Current:         110, 120
+
+Up Neighbour:    110, 131
+Down Neighbour:  110, 129
+Right Neighbour: 111, 130
+Left Neighbour:  109, 130
+Current:         110, 130
+
+Up Neighbour:    110, 141
+Down Neighbour:  110, 139
+Right Neighbour: 111, 140
+Left Neighbour:  109, 140
+Current:         110, 140
+
+Up Neighbour:    110, 151
+Down Neighbour:  110, 149
+Right Neighbour: 111, 150
+Left Neighbour:  109, 150
+Current:         110, 150
+
+Up Neighbour:    110, 161
+Down Neighbour:  110, 159
+Right Neighbour: 111, 160
+Left Neighbour:  109, 160
+Current:         110, 160
+
+Up Neighbour:    110, 171
+Down Neighbour:  110, 169
+Right Neighbour: 111, 170
+Left Neighbour:  109, 170
+Current:         110, 170
+
+Up Neighbour:    110, 181
+Down Neighbour:  110, 179
+Right Neighbour: 111, 180
+Left Neighbour:  109, 180
+Current:         110, 180
+
+Up Neighbour:    110, 191
+Down Neighbour:  110, 189
+Right Neighbour: 111, 190
+Left Neighbour:  109, 190
+Current:         110, 190
+
+Up Neighbour:    110, 201
+Down Neighbour:  110, 199
+Right Neighbour: 111, 200
+Left Neighbour:  109, 200
+Current:         110, 200
+
+Up Neighbour:    110, 211
+Down Neighbour:  110, 209
+Right Neighbour: 111, 210
+Left Neighbour:  109, 210
+Current:         110, 210
+
+Up Neighbour:    110, 221
+Down Neighbour:  110, 219
+Right Neighbour: 111, 220
+Left Neighbour:  109, 220
+Current:         110, 220
+
+Up Neighbour:    110, 231
+Down Neighbour:  110, 229
+Right Neighbour: 111, 230
+Left Neighbour:  109, 230
+Current:         110, 230
+
+Up Neighbour:    110, 241
+Down Neighbour:  110, 239
+Right Neighbour: 111, 240
+Left Neighbour:  109, 240
+Current:         110, 240
+
+Up Neighbour:    110, 251
+Down Neighbour:  110, 249
+Right Neighbour: 111, 250
+Left Neighbour:  109, 250
+Current:         110, 250
+
+Up Neighbour:    110, 261
+Down Neighbour:  110, 259
+Right Neighbour: 111, 260
+Left Neighbour:  109, 260
+Current:         110, 260
+
+Up Neighbour:    110, 271
+Down Neighbour:  110, 269
+Right Neighbour: 111, 270
+Left Neighbour:  109, 270
+Current:         110, 270
+
+Up Neighbour:    110, 281
+Down Neighbour:  110, 279
+Right Neighbour: 111, 280
+Left Neighbour:  109, 280
+Current:         110, 280
+
+Up Neighbour:    110, 291
+Down Neighbour:  110, 289
+Right Neighbour: 111, 290
+Left Neighbour:  109, 290
+Current:         110, 290
+
+Up Neighbour:    110, 301
+Down Neighbour:  110, 299
+Right Neighbour: 111, 300
+Left Neighbour:  109, 300
+Current:         110, 300
+
+Up Neighbour:    120, 1
+Right Neighbour: 121, 0
+Left Neighbour:  119, 0
+Current:         120, 0
+
+Up Neighbour:    120, 11
+Down Neighbour:  120, 9
+Right Neighbour: 121, 10
+Left Neighbour:  119, 10
+Current:         120, 10
+
+Up Neighbour:    120, 21
+Down Neighbour:  120, 19
+Right Neighbour: 121, 20
+Left Neighbour:  119, 20
+Current:         120, 20
+
+Up Neighbour:    120, 31
+Down Neighbour:  120, 29
+Right Neighbour: 121, 30
+Left Neighbour:  119, 30
+Current:         120, 30
+
+Up Neighbour:    120, 41
+Down Neighbour:  120, 39
+Right Neighbour: 121, 40
+Left Neighbour:  119, 40
+Current:         120, 40
+
+Up Neighbour:    120, 51
+Down Neighbour:  120, 49
+Right Neighbour: 121, 50
+Left Neighbour:  119, 50
+Current:         120, 50
+
+Up Neighbour:    120, 61
+Down Neighbour:  120, 59
+Right Neighbour: 121, 60
+Left Neighbour:  119, 60
+Current:         120, 60
+
+Up Neighbour:    120, 71
+Down Neighbour:  120, 69
+Right Neighbour: 121, 70
+Left Neighbour:  119, 70
+Current:         120, 70
+
+Up Neighbour:    120, 81
+Down Neighbour:  120, 79
+Right Neighbour: 121, 80
+Left Neighbour:  119, 80
+Current:         120, 80
+
+Up Neighbour:    120, 91
+Down Neighbour:  120, 89
+Right Neighbour: 121, 90
+Left Neighbour:  119, 90
+Current:         120, 90
+
+Up Neighbour:    120, 101
+Down Neighbour:  120, 99
+Right Neighbour: 121, 100
+Left Neighbour:  119, 100
+Current:         120, 100
+
+Up Neighbour:    120, 111
+Down Neighbour:  120, 109
+Right Neighbour: 121, 110
+Left Neighbour:  119, 110
+Current:         120, 110
+
+Up Neighbour:    120, 121
+Down Neighbour:  120, 119
+Right Neighbour: 121, 120
+Left Neighbour:  119, 120
+Current:         120, 120
+
+Up Neighbour:    120, 131
+Down Neighbour:  120, 129
+Right Neighbour: 121, 130
+Left Neighbour:  119, 130
+Current:         120, 130
+
+Up Neighbour:    120, 141
+Down Neighbour:  120, 139
+Right Neighbour: 121, 140
+Left Neighbour:  119, 140
+Current:         120, 140
+
+Up Neighbour:    120, 151
+Down Neighbour:  120, 149
+Right Neighbour: 121, 150
+Left Neighbour:  119, 150
+Current:         120, 150
+
+Up Neighbour:    120, 161
+Down Neighbour:  120, 159
+Right Neighbour: 121, 160
+Left Neighbour:  119, 160
+Current:         120, 160
+
+Up Neighbour:    120, 171
+Down Neighbour:  120, 169
+Right Neighbour: 121, 170
+Left Neighbour:  119, 170
+Current:         120, 170
+
+Up Neighbour:    120, 181
+Down Neighbour:  120, 179
+Right Neighbour: 121, 180
+Left Neighbour:  119, 180
+Current:         120, 180
+
+Up Neighbour:    120, 191
+Down Neighbour:  120, 189
+Right Neighbour: 121, 190
+Left Neighbour:  119, 190
+Current:         120, 190
+
+Up Neighbour:    120, 201
+Down Neighbour:  120, 199
+Right Neighbour: 121, 200
+Left Neighbour:  119, 200
+Current:         120, 200
+
+Up Neighbour:    120, 211
+Down Neighbour:  120, 209
+Right Neighbour: 121, 210
+Left Neighbour:  119, 210
+Current:         120, 210
+
+Up Neighbour:    120, 221
+Down Neighbour:  120, 219
+Right Neighbour: 121, 220
+Left Neighbour:  119, 220
+Current:         120, 220
+
+Up Neighbour:    120, 231
+Down Neighbour:  120, 229
+Right Neighbour: 121, 230
+Left Neighbour:  119, 230
+Current:         120, 230
+
+Up Neighbour:    120, 241
+Down Neighbour:  120, 239
+Right Neighbour: 121, 240
+Left Neighbour:  119, 240
+Current:         120, 240
+
+Up Neighbour:    120, 251
+Down Neighbour:  120, 249
+Right Neighbour: 121, 250
+Left Neighbour:  119, 250
+Current:         120, 250
+
+Up Neighbour:    120, 261
+Down Neighbour:  120, 259
+Right Neighbour: 121, 260
+Left Neighbour:  119, 260
+Current:         120, 260
+
+Up Neighbour:    120, 271
+Down Neighbour:  120, 269
+Right Neighbour: 121, 270
+Left Neighbour:  119, 270
+Current:         120, 270
+
+Up Neighbour:    120, 281
+Down Neighbour:  120, 279
+Right Neighbour: 121, 280
+Left Neighbour:  119, 280
+Current:         120, 280
+
+Up Neighbour:    120, 291
+Down Neighbour:  120, 289
+Right Neighbour: 121, 290
+Left Neighbour:  119, 290
+Current:         120, 290
+
+Up Neighbour:    120, 301
+Down Neighbour:  120, 299
+Right Neighbour: 121, 300
+Left Neighbour:  119, 300
+Current:         120, 300
+
+Up Neighbour:    130, 1
+Right Neighbour: 131, 0
+Left Neighbour:  129, 0
+Current:         130, 0
+
+Up Neighbour:    130, 11
+Down Neighbour:  130, 9
+Right Neighbour: 131, 10
+Left Neighbour:  129, 10
+Current:         130, 10
+
+Up Neighbour:    130, 21
+Down Neighbour:  130, 19
+Right Neighbour: 131, 20
+Left Neighbour:  129, 20
+Current:         130, 20
+
+Up Neighbour:    130, 31
+Down Neighbour:  130, 29
+Right Neighbour: 131, 30
+Left Neighbour:  129, 30
+Current:         130, 30
+
+Up Neighbour:    130, 41
+Down Neighbour:  130, 39
+Right Neighbour: 131, 40
+Left Neighbour:  129, 40
+Current:         130, 40
+
+Up Neighbour:    130, 51
+Down Neighbour:  130, 49
+Right Neighbour: 131, 50
+Left Neighbour:  129, 50
+Current:         130, 50
+
+Up Neighbour:    130, 61
+Down Neighbour:  130, 59
+Right Neighbour: 131, 60
+Left Neighbour:  129, 60
+Current:         130, 60
+
+Up Neighbour:    130, 71
+Down Neighbour:  130, 69
+Right Neighbour: 131, 70
+Left Neighbour:  129, 70
+Current:         130, 70
+
+Up Neighbour:    130, 81
+Down Neighbour:  130, 79
+Right Neighbour: 131, 80
+Left Neighbour:  129, 80
+Current:         130, 80
+
+Up Neighbour:    130, 91
+Down Neighbour:  130, 89
+Right Neighbour: 131, 90
+Left Neighbour:  129, 90
+Current:         130, 90
+
+Up Neighbour:    130, 101
+Down Neighbour:  130, 99
+Right Neighbour: 131, 100
+Left Neighbour:  129, 100
+Current:         130, 100
+
+Up Neighbour:    130, 111
+Down Neighbour:  130, 109
+Right Neighbour: 131, 110
+Left Neighbour:  129, 110
+Current:         130, 110
+
+Up Neighbour:    130, 121
+Down Neighbour:  130, 119
+Right Neighbour: 131, 120
+Left Neighbour:  129, 120
+Current:         130, 120
+
+Up Neighbour:    130, 131
+Down Neighbour:  130, 129
+Right Neighbour: 131, 130
+Left Neighbour:  129, 130
+Current:         130, 130
+
+Up Neighbour:    130, 141
+Down Neighbour:  130, 139
+Right Neighbour: 131, 140
+Left Neighbour:  129, 140
+Current:         130, 140
+
+Up Neighbour:    130, 151
+Down Neighbour:  130, 149
+Right Neighbour: 131, 150
+Left Neighbour:  129, 150
+Current:         130, 150
+
+Up Neighbour:    130, 161
+Down Neighbour:  130, 159
+Right Neighbour: 131, 160
+Left Neighbour:  129, 160
+Current:         130, 160
+
+Up Neighbour:    130, 171
+Down Neighbour:  130, 169
+Right Neighbour: 131, 170
+Left Neighbour:  129, 170
+Current:         130, 170
+
+Up Neighbour:    130, 181
+Down Neighbour:  130, 179
+Right Neighbour: 131, 180
+Left Neighbour:  129, 180
+Current:         130, 180
+
+Up Neighbour:    130, 191
+Down Neighbour:  130, 189
+Right Neighbour: 131, 190
+Left Neighbour:  129, 190
+Current:         130, 190
+
+Up Neighbour:    130, 201
+Down Neighbour:  130, 199
+Right Neighbour: 131, 200
+Left Neighbour:  129, 200
+Current:         130, 200
+
+Up Neighbour:    130, 211
+Down Neighbour:  130, 209
+Right Neighbour: 131, 210
+Left Neighbour:  129, 210
+Current:         130, 210
+
+Up Neighbour:    130, 221
+Down Neighbour:  130, 219
+Right Neighbour: 131, 220
+Left Neighbour:  129, 220
+Current:         130, 220
+
+Up Neighbour:    130, 231
+Down Neighbour:  130, 229
+Right Neighbour: 131, 230
+Left Neighbour:  129, 230
+Current:         130, 230
+
+Up Neighbour:    130, 241
+Down Neighbour:  130, 239
+Right Neighbour: 131, 240
+Left Neighbour:  129, 240
+Current:         130, 240
+
+Up Neighbour:    130, 251
+Down Neighbour:  130, 249
+Right Neighbour: 131, 250
+Left Neighbour:  129, 250
+Current:         130, 250
+
+Up Neighbour:    130, 261
+Down Neighbour:  130, 259
+Right Neighbour: 131, 260
+Left Neighbour:  129, 260
+Current:         130, 260
+
+Up Neighbour:    130, 271
+Down Neighbour:  130, 269
+Right Neighbour: 131, 270
+Left Neighbour:  129, 270
+Current:         130, 270
+
+Up Neighbour:    130, 281
+Down Neighbour:  130, 279
+Right Neighbour: 131, 280
+Left Neighbour:  129, 280
+Current:         130, 280
+
+Up Neighbour:    130, 291
+Down Neighbour:  130, 289
+Right Neighbour: 131, 290
+Left Neighbour:  129, 290
+Current:         130, 290
+
+Up Neighbour:    130, 301
+Down Neighbour:  130, 299
+Right Neighbour: 131, 300
+Left Neighbour:  129, 300
+Current:         130, 300
+
+Up Neighbour:    140, 1
+Right Neighbour: 141, 0
+Left Neighbour:  139, 0
+Current:         140, 0
+
+Up Neighbour:    140, 11
+Down Neighbour:  140, 9
+Right Neighbour: 141, 10
+Left Neighbour:  139, 10
+Current:         140, 10
+
+Up Neighbour:    140, 21
+Down Neighbour:  140, 19
+Right Neighbour: 141, 20
+Left Neighbour:  139, 20
+Current:         140, 20
+
+Up Neighbour:    140, 31
+Down Neighbour:  140, 29
+Right Neighbour: 141, 30
+Left Neighbour:  139, 30
+Current:         140, 30
+
+Up Neighbour:    140, 41
+Down Neighbour:  140, 39
+Right Neighbour: 141, 40
+Left Neighbour:  139, 40
+Current:         140, 40
+
+Up Neighbour:    140, 51
+Down Neighbour:  140, 49
+Right Neighbour: 141, 50
+Left Neighbour:  139, 50
+Current:         140, 50
+
+Up Neighbour:    140, 61
+Down Neighbour:  140, 59
+Right Neighbour: 141, 60
+Left Neighbour:  139, 60
+Current:         140, 60
+
+Up Neighbour:    140, 71
+Down Neighbour:  140, 69
+Right Neighbour: 141, 70
+Left Neighbour:  139, 70
+Current:         140, 70
+
+Up Neighbour:    140, 81
+Down Neighbour:  140, 79
+Right Neighbour: 141, 80
+Left Neighbour:  139, 80
+Current:         140, 80
+
+Up Neighbour:    140, 91
+Down Neighbour:  140, 89
+Right Neighbour: 141, 90
+Left Neighbour:  139, 90
+Current:         140, 90
+
+Up Neighbour:    140, 101
+Down Neighbour:  140, 99
+Right Neighbour: 141, 100
+Left Neighbour:  139, 100
+Current:         140, 100
+
+Up Neighbour:    140, 111
+Down Neighbour:  140, 109
+Right Neighbour: 141, 110
+Left Neighbour:  139, 110
+Current:         140, 110
+
+Up Neighbour:    140, 121
+Down Neighbour:  140, 119
+Right Neighbour: 141, 120
+Left Neighbour:  139, 120
+Current:         140, 120
+
+Up Neighbour:    140, 131
+Down Neighbour:  140, 129
+Right Neighbour: 141, 130
+Left Neighbour:  139, 130
+Current:         140, 130
+
+Up Neighbour:    140, 141
+Down Neighbour:  140, 139
+Right Neighbour: 141, 140
+Left Neighbour:  139, 140
+Current:         140, 140
+
+Up Neighbour:    140, 151
+Down Neighbour:  140, 149
+Right Neighbour: 141, 150
+Left Neighbour:  139, 150
+Current:         140, 150
+
+Up Neighbour:    140, 161
+Down Neighbour:  140, 159
+Right Neighbour: 141, 160
+Left Neighbour:  139, 160
+Current:         140, 160
+
+Up Neighbour:    140, 171
+Down Neighbour:  140, 169
+Right Neighbour: 141, 170
+Left Neighbour:  139, 170
+Current:         140, 170
+
+Up Neighbour:    140, 181
+Down Neighbour:  140, 179
+Right Neighbour: 141, 180
+Left Neighbour:  139, 180
+Current:         140, 180
+
+Up Neighbour:    140, 191
+Down Neighbour:  140, 189
+Right Neighbour: 141, 190
+Left Neighbour:  139, 190
+Current:         140, 190
+
+Up Neighbour:    140, 201
+Down Neighbour:  140, 199
+Right Neighbour: 141, 200
+Left Neighbour:  139, 200
+Current:         140, 200
+
+Up Neighbour:    140, 211
+Down Neighbour:  140, 209
+Right Neighbour: 141, 210
+Left Neighbour:  139, 210
+Current:         140, 210
+
+Up Neighbour:    140, 221
+Down Neighbour:  140, 219
+Right Neighbour: 141, 220
+Left Neighbour:  139, 220
+Current:         140, 220
+
+Up Neighbour:    140, 231
+Down Neighbour:  140, 229
+Right Neighbour: 141, 230
+Left Neighbour:  139, 230
+Current:         140, 230
+
+Up Neighbour:    140, 241
+Down Neighbour:  140, 239
+Right Neighbour: 141, 240
+Left Neighbour:  139, 240
+Current:         140, 240
+
+Up Neighbour:    140, 251
+Down Neighbour:  140, 249
+Right Neighbour: 141, 250
+Left Neighbour:  139, 250
+Current:         140, 250
+
+Up Neighbour:    140, 261
+Down Neighbour:  140, 259
+Right Neighbour: 141, 260
+Left Neighbour:  139, 260
+Current:         140, 260
+
+Up Neighbour:    140, 271
+Down Neighbour:  140, 269
+Right Neighbour: 141, 270
+Left Neighbour:  139, 270
+Current:         140, 270
+
+Up Neighbour:    140, 281
+Down Neighbour:  140, 279
+Right Neighbour: 141, 280
+Left Neighbour:  139, 280
+Current:         140, 280
+
+Up Neighbour:    140, 291
+Down Neighbour:  140, 289
+Right Neighbour: 141, 290
+Left Neighbour:  139, 290
+Current:         140, 290
+
+Up Neighbour:    140, 301
+Down Neighbour:  140, 299
+Right Neighbour: 141, 300
+Left Neighbour:  139, 300
+Current:         140, 300
+
+Up Neighbour:    150, 1
+Right Neighbour: 151, 0
+Left Neighbour:  149, 0
+Current:         150, 0
+
+Up Neighbour:    150, 11
+Down Neighbour:  150, 9
+Right Neighbour: 151, 10
+Left Neighbour:  149, 10
+Current:         150, 10
+
+Up Neighbour:    150, 21
+Down Neighbour:  150, 19
+Right Neighbour: 151, 20
+Left Neighbour:  149, 20
+Current:         150, 20
+
+Up Neighbour:    150, 31
+Down Neighbour:  150, 29
+Right Neighbour: 151, 30
+Left Neighbour:  149, 30
+Current:         150, 30
+
+Up Neighbour:    150, 41
+Down Neighbour:  150, 39
+Right Neighbour: 151, 40
+Left Neighbour:  149, 40
+Current:         150, 40
+
+Up Neighbour:    150, 51
+Down Neighbour:  150, 49
+Right Neighbour: 151, 50
+Left Neighbour:  149, 50
+Current:         150, 50
+
+Up Neighbour:    150, 61
+Down Neighbour:  150, 59
+Right Neighbour: 151, 60
+Left Neighbour:  149, 60
+Current:         150, 60
+
+Up Neighbour:    150, 71
+Down Neighbour:  150, 69
+Right Neighbour: 151, 70
+Left Neighbour:  149, 70
+Current:         150, 70
+
+Up Neighbour:    150, 81
+Down Neighbour:  150, 79
+Right Neighbour: 151, 80
+Left Neighbour:  149, 80
+Current:         150, 80
+
+Up Neighbour:    150, 91
+Down Neighbour:  150, 89
+Right Neighbour: 151, 90
+Left Neighbour:  149, 90
+Current:         150, 90
+
+Up Neighbour:    150, 101
+Down Neighbour:  150, 99
+Right Neighbour: 151, 100
+Left Neighbour:  149, 100
+Current:         150, 100
+
+Up Neighbour:    150, 111
+Down Neighbour:  150, 109
+Right Neighbour: 151, 110
+Left Neighbour:  149, 110
+Current:         150, 110
+
+Up Neighbour:    150, 121
+Down Neighbour:  150, 119
+Right Neighbour: 151, 120
+Left Neighbour:  149, 120
+Current:         150, 120
+
+Up Neighbour:    150, 131
+Down Neighbour:  150, 129
+Right Neighbour: 151, 130
+Left Neighbour:  149, 130
+Current:         150, 130
+
+Up Neighbour:    150, 141
+Down Neighbour:  150, 139
+Right Neighbour: 151, 140
+Left Neighbour:  149, 140
+Current:         150, 140
+
+Up Neighbour:    150, 151
+Down Neighbour:  150, 149
+Right Neighbour: 151, 150
+Left Neighbour:  149, 150
+Current:         150, 150
+
+Up Neighbour:    150, 161
+Down Neighbour:  150, 159
+Right Neighbour: 151, 160
+Left Neighbour:  149, 160
+Current:         150, 160
+
+Up Neighbour:    150, 171
+Down Neighbour:  150, 169
+Right Neighbour: 151, 170
+Left Neighbour:  149, 170
+Current:         150, 170
+
+Up Neighbour:    150, 181
+Down Neighbour:  150, 179
+Right Neighbour: 151, 180
+Left Neighbour:  149, 180
+Current:         150, 180
+
+Up Neighbour:    150, 191
+Down Neighbour:  150, 189
+Right Neighbour: 151, 190
+Left Neighbour:  149, 190
+Current:         150, 190
+
+Up Neighbour:    150, 201
+Down Neighbour:  150, 199
+Right Neighbour: 151, 200
+Left Neighbour:  149, 200
+Current:         150, 200
+
+Up Neighbour:    150, 211
+Down Neighbour:  150, 209
+Right Neighbour: 151, 210
+Left Neighbour:  149, 210
+Current:         150, 210
+
+Up Neighbour:    150, 221
+Down Neighbour:  150, 219
+Right Neighbour: 151, 220
+Left Neighbour:  149, 220
+Current:         150, 220
+
+Up Neighbour:    150, 231
+Down Neighbour:  150, 229
+Right Neighbour: 151, 230
+Left Neighbour:  149, 230
+Current:         150, 230
+
+Up Neighbour:    150, 241
+Down Neighbour:  150, 239
+Right Neighbour: 151, 240
+Left Neighbour:  149, 240
+Current:         150, 240
+
+Up Neighbour:    150, 251
+Down Neighbour:  150, 249
+Right Neighbour: 151, 250
+Left Neighbour:  149, 250
+Current:         150, 250
+
+Up Neighbour:    150, 261
+Down Neighbour:  150, 259
+Right Neighbour: 151, 260
+Left Neighbour:  149, 260
+Current:         150, 260
+
+Up Neighbour:    150, 271
+Down Neighbour:  150, 269
+Right Neighbour: 151, 270
+Left Neighbour:  149, 270
+Current:         150, 270
+
+Up Neighbour:    150, 281
+Down Neighbour:  150, 279
+Right Neighbour: 151, 280
+Left Neighbour:  149, 280
+Current:         150, 280
+
+Up Neighbour:    150, 291
+Down Neighbour:  150, 289
+Right Neighbour: 151, 290
+Left Neighbour:  149, 290
+Current:         150, 290
+
+Up Neighbour:    150, 301
+Down Neighbour:  150, 299
+Right Neighbour: 151, 300
+Left Neighbour:  149, 300
+Current:         150, 300
+
+Up Neighbour:    160, 1
+Right Neighbour: 161, 0
+Left Neighbour:  159, 0
+Current:         160, 0
+
+Up Neighbour:    160, 11
+Down Neighbour:  160, 9
+Right Neighbour: 161, 10
+Left Neighbour:  159, 10
+Current:         160, 10
+
+Up Neighbour:    160, 21
+Down Neighbour:  160, 19
+Right Neighbour: 161, 20
+Left Neighbour:  159, 20
+Current:         160, 20
+
+Up Neighbour:    160, 31
+Down Neighbour:  160, 29
+Right Neighbour: 161, 30
+Left Neighbour:  159, 30
+Current:         160, 30
+
+Up Neighbour:    160, 41
+Down Neighbour:  160, 39
+Right Neighbour: 161, 40
+Left Neighbour:  159, 40
+Current:         160, 40
+
+Up Neighbour:    160, 51
+Down Neighbour:  160, 49
+Right Neighbour: 161, 50
+Left Neighbour:  159, 50
+Current:         160, 50
+
+Up Neighbour:    160, 61
+Down Neighbour:  160, 59
+Right Neighbour: 161, 60
+Left Neighbour:  159, 60
+Current:         160, 60
+
+Up Neighbour:    160, 71
+Down Neighbour:  160, 69
+Right Neighbour: 161, 70
+Left Neighbour:  159, 70
+Current:         160, 70
+
+Up Neighbour:    160, 81
+Down Neighbour:  160, 79
+Right Neighbour: 161, 80
+Left Neighbour:  159, 80
+Current:         160, 80
+
+Up Neighbour:    160, 91
+Down Neighbour:  160, 89
+Right Neighbour: 161, 90
+Left Neighbour:  159, 90
+Current:         160, 90
+
+Up Neighbour:    160, 101
+Down Neighbour:  160, 99
+Right Neighbour: 161, 100
+Left Neighbour:  159, 100
+Current:         160, 100
+
+Up Neighbour:    160, 111
+Down Neighbour:  160, 109
+Right Neighbour: 161, 110
+Left Neighbour:  159, 110
+Current:         160, 110
+
+Up Neighbour:    160, 121
+Down Neighbour:  160, 119
+Right Neighbour: 161, 120
+Left Neighbour:  159, 120
+Current:         160, 120
+
+Up Neighbour:    160, 131
+Down Neighbour:  160, 129
+Right Neighbour: 161, 130
+Left Neighbour:  159, 130
+Current:         160, 130
+
+Up Neighbour:    160, 141
+Down Neighbour:  160, 139
+Right Neighbour: 161, 140
+Left Neighbour:  159, 140
+Current:         160, 140
+
+Up Neighbour:    160, 151
+Down Neighbour:  160, 149
+Right Neighbour: 161, 150
+Left Neighbour:  159, 150
+Current:         160, 150
+
+Up Neighbour:    160, 161
+Down Neighbour:  160, 159
+Right Neighbour: 161, 160
+Left Neighbour:  159, 160
+Current:         160, 160
+
+Up Neighbour:    160, 171
+Down Neighbour:  160, 169
+Right Neighbour: 161, 170
+Left Neighbour:  159, 170
+Current:         160, 170
+
+Up Neighbour:    160, 181
+Down Neighbour:  160, 179
+Right Neighbour: 161, 180
+Left Neighbour:  159, 180
+Current:         160, 180
+
+Up Neighbour:    160, 191
+Down Neighbour:  160, 189
+Right Neighbour: 161, 190
+Left Neighbour:  159, 190
+Current:         160, 190
+
+Up Neighbour:    160, 201
+Down Neighbour:  160, 199
+Right Neighbour: 161, 200
+Left Neighbour:  159, 200
+Current:         160, 200
+
+Up Neighbour:    160, 211
+Down Neighbour:  160, 209
+Right Neighbour: 161, 210
+Left Neighbour:  159, 210
+Current:         160, 210
+
+Up Neighbour:    160, 221
+Down Neighbour:  160, 219
+Right Neighbour: 161, 220
+Left Neighbour:  159, 220
+Current:         160, 220
+
+Up Neighbour:    160, 231
+Down Neighbour:  160, 229
+Right Neighbour: 161, 230
+Left Neighbour:  159, 230
+Current:         160, 230
+
+Up Neighbour:    160, 241
+Down Neighbour:  160, 239
+Right Neighbour: 161, 240
+Left Neighbour:  159, 240
+Current:         160, 240
+
+Up Neighbour:    160, 251
+Down Neighbour:  160, 249
+Right Neighbour: 161, 250
+Left Neighbour:  159, 250
+Current:         160, 250
+
+Up Neighbour:    160, 261
+Down Neighbour:  160, 259
+Right Neighbour: 161, 260
+Left Neighbour:  159, 260
+Current:         160, 260
+
+Up Neighbour:    160, 271
+Down Neighbour:  160, 269
+Right Neighbour: 161, 270
+Left Neighbour:  159, 270
+Current:         160, 270
+
+Up Neighbour:    160, 281
+Down Neighbour:  160, 279
+Right Neighbour: 161, 280
+Left Neighbour:  159, 280
+Current:         160, 280
+
+Up Neighbour:    160, 291
+Down Neighbour:  160, 289
+Right Neighbour: 161, 290
+Left Neighbour:  159, 290
+Current:         160, 290
+
+Up Neighbour:    160, 301
+Down Neighbour:  160, 299
+Right Neighbour: 161, 300
+Left Neighbour:  159, 300
+Current:         160, 300
+
+Up Neighbour:    170, 1
+Right Neighbour: 171, 0
+Left Neighbour:  169, 0
+Current:         170, 0
+
+Up Neighbour:    170, 11
+Down Neighbour:  170, 9
+Right Neighbour: 171, 10
+Left Neighbour:  169, 10
+Current:         170, 10
+
+Up Neighbour:    170, 21
+Down Neighbour:  170, 19
+Right Neighbour: 171, 20
+Left Neighbour:  169, 20
+Current:         170, 20
+
+Up Neighbour:    170, 31
+Down Neighbour:  170, 29
+Right Neighbour: 171, 30
+Left Neighbour:  169, 30
+Current:         170, 30
+
+Up Neighbour:    170, 41
+Down Neighbour:  170, 39
+Right Neighbour: 171, 40
+Left Neighbour:  169, 40
+Current:         170, 40
+
+Up Neighbour:    170, 51
+Down Neighbour:  170, 49
+Right Neighbour: 171, 50
+Left Neighbour:  169, 50
+Current:         170, 50
+
+Up Neighbour:    170, 61
+Down Neighbour:  170, 59
+Right Neighbour: 171, 60
+Left Neighbour:  169, 60
+Current:         170, 60
+
+Up Neighbour:    170, 71
+Down Neighbour:  170, 69
+Right Neighbour: 171, 70
+Left Neighbour:  169, 70
+Current:         170, 70
+
+Up Neighbour:    170, 81
+Down Neighbour:  170, 79
+Right Neighbour: 171, 80
+Left Neighbour:  169, 80
+Current:         170, 80
+
+Up Neighbour:    170, 91
+Down Neighbour:  170, 89
+Right Neighbour: 171, 90
+Left Neighbour:  169, 90
+Current:         170, 90
+
+Up Neighbour:    170, 101
+Down Neighbour:  170, 99
+Right Neighbour: 171, 100
+Left Neighbour:  169, 100
+Current:         170, 100
+
+Up Neighbour:    170, 111
+Down Neighbour:  170, 109
+Right Neighbour: 171, 110
+Left Neighbour:  169, 110
+Current:         170, 110
+
+Up Neighbour:    170, 121
+Down Neighbour:  170, 119
+Right Neighbour: 171, 120
+Left Neighbour:  169, 120
+Current:         170, 120
+
+Up Neighbour:    170, 131
+Down Neighbour:  170, 129
+Right Neighbour: 171, 130
+Left Neighbour:  169, 130
+Current:         170, 130
+
+Up Neighbour:    170, 141
+Down Neighbour:  170, 139
+Right Neighbour: 171, 140
+Left Neighbour:  169, 140
+Current:         170, 140
+
+Up Neighbour:    170, 151
+Down Neighbour:  170, 149
+Right Neighbour: 171, 150
+Left Neighbour:  169, 150
+Current:         170, 150
+
+Up Neighbour:    170, 161
+Down Neighbour:  170, 159
+Right Neighbour: 171, 160
+Left Neighbour:  169, 160
+Current:         170, 160
+
+Up Neighbour:    170, 171
+Down Neighbour:  170, 169
+Right Neighbour: 171, 170
+Left Neighbour:  169, 170
+Current:         170, 170
+
+Up Neighbour:    170, 181
+Down Neighbour:  170, 179
+Right Neighbour: 171, 180
+Left Neighbour:  169, 180
+Current:         170, 180
+
+Up Neighbour:    170, 191
+Down Neighbour:  170, 189
+Right Neighbour: 171, 190
+Left Neighbour:  169, 190
+Current:         170, 190
+
+Up Neighbour:    170, 201
+Down Neighbour:  170, 199
+Right Neighbour: 171, 200
+Left Neighbour:  169, 200
+Current:         170, 200
+
+Up Neighbour:    170, 211
+Down Neighbour:  170, 209
+Right Neighbour: 171, 210
+Left Neighbour:  169, 210
+Current:         170, 210
+
+Up Neighbour:    170, 221
+Down Neighbour:  170, 219
+Right Neighbour: 171, 220
+Left Neighbour:  169, 220
+Current:         170, 220
+
+Up Neighbour:    170, 231
+Down Neighbour:  170, 229
+Right Neighbour: 171, 230
+Left Neighbour:  169, 230
+Current:         170, 230
+
+Up Neighbour:    170, 241
+Down Neighbour:  170, 239
+Right Neighbour: 171, 240
+Left Neighbour:  169, 240
+Current:         170, 240
+
+Up Neighbour:    170, 251
+Down Neighbour:  170, 249
+Right Neighbour: 171, 250
+Left Neighbour:  169, 250
+Current:         170, 250
+
+Up Neighbour:    170, 261
+Down Neighbour:  170, 259
+Right Neighbour: 171, 260
+Left Neighbour:  169, 260
+Current:         170, 260
+
+Up Neighbour:    170, 271
+Down Neighbour:  170, 269
+Right Neighbour: 171, 270
+Left Neighbour:  169, 270
+Current:         170, 270
+
+Up Neighbour:    170, 281
+Down Neighbour:  170, 279
+Right Neighbour: 171, 280
+Left Neighbour:  169, 280
+Current:         170, 280
+
+Up Neighbour:    170, 291
+Down Neighbour:  170, 289
+Right Neighbour: 171, 290
+Left Neighbour:  169, 290
+Current:         170, 290
+
+Up Neighbour:    170, 301
+Down Neighbour:  170, 299
+Right Neighbour: 171, 300
+Left Neighbour:  169, 300
+Current:         170, 300
+
+Up Neighbour:    180, 1
+Right Neighbour: 181, 0
+Left Neighbour:  179, 0
+Current:         180, 0
+
+Up Neighbour:    180, 11
+Down Neighbour:  180, 9
+Right Neighbour: 181, 10
+Left Neighbour:  179, 10
+Current:         180, 10
+
+Up Neighbour:    180, 21
+Down Neighbour:  180, 19
+Right Neighbour: 181, 20
+Left Neighbour:  179, 20
+Current:         180, 20
+
+Up Neighbour:    180, 31
+Down Neighbour:  180, 29
+Right Neighbour: 181, 30
+Left Neighbour:  179, 30
+Current:         180, 30
+
+Up Neighbour:    180, 41
+Down Neighbour:  180, 39
+Right Neighbour: 181, 40
+Left Neighbour:  179, 40
+Current:         180, 40
+
+Up Neighbour:    180, 51
+Down Neighbour:  180, 49
+Right Neighbour: 181, 50
+Left Neighbour:  179, 50
+Current:         180, 50
+
+Up Neighbour:    180, 61
+Down Neighbour:  180, 59
+Right Neighbour: 181, 60
+Left Neighbour:  179, 60
+Current:         180, 60
+
+Up Neighbour:    180, 71
+Down Neighbour:  180, 69
+Right Neighbour: 181, 70
+Left Neighbour:  179, 70
+Current:         180, 70
+
+Up Neighbour:    180, 81
+Down Neighbour:  180, 79
+Right Neighbour: 181, 80
+Left Neighbour:  179, 80
+Current:         180, 80
+
+Up Neighbour:    180, 91
+Down Neighbour:  180, 89
+Right Neighbour: 181, 90
+Left Neighbour:  179, 90
+Current:         180, 90
+
+Up Neighbour:    180, 101
+Down Neighbour:  180, 99
+Right Neighbour: 181, 100
+Left Neighbour:  179, 100
+Current:         180, 100
+
+Up Neighbour:    180, 111
+Down Neighbour:  180, 109
+Right Neighbour: 181, 110
+Left Neighbour:  179, 110
+Current:         180, 110
+
+Up Neighbour:    180, 121
+Down Neighbour:  180, 119
+Right Neighbour: 181, 120
+Left Neighbour:  179, 120
+Current:         180, 120
+
+Up Neighbour:    180, 131
+Down Neighbour:  180, 129
+Right Neighbour: 181, 130
+Left Neighbour:  179, 130
+Current:         180, 130
+
+Up Neighbour:    180, 141
+Down Neighbour:  180, 139
+Right Neighbour: 181, 140
+Left Neighbour:  179, 140
+Current:         180, 140
+
+Up Neighbour:    180, 151
+Down Neighbour:  180, 149
+Right Neighbour: 181, 150
+Left Neighbour:  179, 150
+Current:         180, 150
+
+Up Neighbour:    180, 161
+Down Neighbour:  180, 159
+Right Neighbour: 181, 160
+Left Neighbour:  179, 160
+Current:         180, 160
+
+Up Neighbour:    180, 171
+Down Neighbour:  180, 169
+Right Neighbour: 181, 170
+Left Neighbour:  179, 170
+Current:         180, 170
+
+Up Neighbour:    180, 181
+Down Neighbour:  180, 179
+Right Neighbour: 181, 180
+Left Neighbour:  179, 180
+Current:         180, 180
+
+Up Neighbour:    180, 191
+Down Neighbour:  180, 189
+Right Neighbour: 181, 190
+Left Neighbour:  179, 190
+Current:         180, 190
+
+Up Neighbour:    180, 201
+Down Neighbour:  180, 199
+Right Neighbour: 181, 200
+Left Neighbour:  179, 200
+Current:         180, 200
+
+Up Neighbour:    180, 211
+Down Neighbour:  180, 209
+Right Neighbour: 181, 210
+Left Neighbour:  179, 210
+Current:         180, 210
+
+Up Neighbour:    180, 221
+Down Neighbour:  180, 219
+Right Neighbour: 181, 220
+Left Neighbour:  179, 220
+Current:         180, 220
+
+Up Neighbour:    180, 231
+Down Neighbour:  180, 229
+Right Neighbour: 181, 230
+Left Neighbour:  179, 230
+Current:         180, 230
+
+Up Neighbour:    180, 241
+Down Neighbour:  180, 239
+Right Neighbour: 181, 240
+Left Neighbour:  179, 240
+Current:         180, 240
+
+Up Neighbour:    180, 251
+Down Neighbour:  180, 249
+Right Neighbour: 181, 250
+Left Neighbour:  179, 250
+Current:         180, 250
+
+Up Neighbour:    180, 261
+Down Neighbour:  180, 259
+Right Neighbour: 181, 260
+Left Neighbour:  179, 260
+Current:         180, 260
+
+Up Neighbour:    180, 271
+Down Neighbour:  180, 269
+Right Neighbour: 181, 270
+Left Neighbour:  179, 270
+Current:         180, 270
+
+Up Neighbour:    180, 281
+Down Neighbour:  180, 279
+Right Neighbour: 181, 280
+Left Neighbour:  179, 280
+Current:         180, 280
+
+Up Neighbour:    180, 291
+Down Neighbour:  180, 289
+Right Neighbour: 181, 290
+Left Neighbour:  179, 290
+Current:         180, 290
+
+Up Neighbour:    180, 301
+Down Neighbour:  180, 299
+Right Neighbour: 181, 300
+Left Neighbour:  179, 300
+Current:         180, 300
+
+Up Neighbour:    190, 1
+Right Neighbour: 191, 0
+Left Neighbour:  189, 0
+Current:         190, 0
+
+Up Neighbour:    190, 11
+Down Neighbour:  190, 9
+Right Neighbour: 191, 10
+Left Neighbour:  189, 10
+Current:         190, 10
+
+Up Neighbour:    190, 21
+Down Neighbour:  190, 19
+Right Neighbour: 191, 20
+Left Neighbour:  189, 20
+Current:         190, 20
+
+Up Neighbour:    190, 31
+Down Neighbour:  190, 29
+Right Neighbour: 191, 30
+Left Neighbour:  189, 30
+Current:         190, 30
+
+Up Neighbour:    190, 41
+Down Neighbour:  190, 39
+Right Neighbour: 191, 40
+Left Neighbour:  189, 40
+Current:         190, 40
+
+Up Neighbour:    190, 51
+Down Neighbour:  190, 49
+Right Neighbour: 191, 50
+Left Neighbour:  189, 50
+Current:         190, 50
+
+Up Neighbour:    190, 61
+Down Neighbour:  190, 59
+Right Neighbour: 191, 60
+Left Neighbour:  189, 60
+Current:         190, 60
+
+Up Neighbour:    190, 71
+Down Neighbour:  190, 69
+Right Neighbour: 191, 70
+Left Neighbour:  189, 70
+Current:         190, 70
+
+Up Neighbour:    190, 81
+Down Neighbour:  190, 79
+Right Neighbour: 191, 80
+Left Neighbour:  189, 80
+Current:         190, 80
+
+Up Neighbour:    190, 91
+Down Neighbour:  190, 89
+Right Neighbour: 191, 90
+Left Neighbour:  189, 90
+Current:         190, 90
+
+Up Neighbour:    190, 101
+Down Neighbour:  190, 99
+Right Neighbour: 191, 100
+Left Neighbour:  189, 100
+Current:         190, 100
+
+Up Neighbour:    190, 111
+Down Neighbour:  190, 109
+Right Neighbour: 191, 110
+Left Neighbour:  189, 110
+Current:         190, 110
+
+Up Neighbour:    190, 121
+Down Neighbour:  190, 119
+Right Neighbour: 191, 120
+Left Neighbour:  189, 120
+Current:         190, 120
+
+Up Neighbour:    190, 131
+Down Neighbour:  190, 129
+Right Neighbour: 191, 130
+Left Neighbour:  189, 130
+Current:         190, 130
+
+Up Neighbour:    190, 141
+Down Neighbour:  190, 139
+Right Neighbour: 191, 140
+Left Neighbour:  189, 140
+Current:         190, 140
+
+Up Neighbour:    190, 151
+Down Neighbour:  190, 149
+Right Neighbour: 191, 150
+Left Neighbour:  189, 150
+Current:         190, 150
+
+Up Neighbour:    190, 161
+Down Neighbour:  190, 159
+Right Neighbour: 191, 160
+Left Neighbour:  189, 160
+Current:         190, 160
+
+Up Neighbour:    190, 171
+Down Neighbour:  190, 169
+Right Neighbour: 191, 170
+Left Neighbour:  189, 170
+Current:         190, 170
+
+Up Neighbour:    190, 181
+Down Neighbour:  190, 179
+Right Neighbour: 191, 180
+Left Neighbour:  189, 180
+Current:         190, 180
+
+Up Neighbour:    190, 191
+Down Neighbour:  190, 189
+Right Neighbour: 191, 190
+Left Neighbour:  189, 190
+Current:         190, 190
+
+Up Neighbour:    190, 201
+Down Neighbour:  190, 199
+Right Neighbour: 191, 200
+Left Neighbour:  189, 200
+Current:         190, 200
+
+Up Neighbour:    190, 211
+Down Neighbour:  190, 209
+Right Neighbour: 191, 210
+Left Neighbour:  189, 210
+Current:         190, 210
+
+Up Neighbour:    190, 221
+Down Neighbour:  190, 219
+Right Neighbour: 191, 220
+Left Neighbour:  189, 220
+Current:         190, 220
+
+Up Neighbour:    190, 231
+Down Neighbour:  190, 229
+Right Neighbour: 191, 230
+Left Neighbour:  189, 230
+Current:         190, 230
+
+Up Neighbour:    190, 241
+Down Neighbour:  190, 239
+Right Neighbour: 191, 240
+Left Neighbour:  189, 240
+Current:         190, 240
+
+Up Neighbour:    190, 251
+Down Neighbour:  190, 249
+Right Neighbour: 191, 250
+Left Neighbour:  189, 250
+Current:         190, 250
+
+Up Neighbour:    190, 261
+Down Neighbour:  190, 259
+Right Neighbour: 191, 260
+Left Neighbour:  189, 260
+Current:         190, 260
+
+Up Neighbour:    190, 271
+Down Neighbour:  190, 269
+Right Neighbour: 191, 270
+Left Neighbour:  189, 270
+Current:         190, 270
+
+Up Neighbour:    190, 281
+Down Neighbour:  190, 279
+Right Neighbour: 191, 280
+Left Neighbour:  189, 280
+Current:         190, 280
+
+Up Neighbour:    190, 291
+Down Neighbour:  190, 289
+Right Neighbour: 191, 290
+Left Neighbour:  189, 290
+Current:         190, 290
+
+Up Neighbour:    190, 301
+Down Neighbour:  190, 299
+Right Neighbour: 191, 300
+Left Neighbour:  189, 300
+Current:         190, 300
+
+Up Neighbour:    200, 1
+Right Neighbour: 201, 0
+Left Neighbour:  199, 0
+Current:         200, 0
+
+Up Neighbour:    200, 11
+Down Neighbour:  200, 9
+Right Neighbour: 201, 10
+Left Neighbour:  199, 10
+Current:         200, 10
+
+Up Neighbour:    200, 21
+Down Neighbour:  200, 19
+Right Neighbour: 201, 20
+Left Neighbour:  199, 20
+Current:         200, 20
+
+Up Neighbour:    200, 31
+Down Neighbour:  200, 29
+Right Neighbour: 201, 30
+Left Neighbour:  199, 30
+Current:         200, 30
+
+Up Neighbour:    200, 41
+Down Neighbour:  200, 39
+Right Neighbour: 201, 40
+Left Neighbour:  199, 40
+Current:         200, 40
+
+Up Neighbour:    200, 51
+Down Neighbour:  200, 49
+Right Neighbour: 201, 50
+Left Neighbour:  199, 50
+Current:         200, 50
+
+Up Neighbour:    200, 61
+Down Neighbour:  200, 59
+Right Neighbour: 201, 60
+Left Neighbour:  199, 60
+Current:         200, 60
+
+Up Neighbour:    200, 71
+Down Neighbour:  200, 69
+Right Neighbour: 201, 70
+Left Neighbour:  199, 70
+Current:         200, 70
+
+Up Neighbour:    200, 81
+Down Neighbour:  200, 79
+Right Neighbour: 201, 80
+Left Neighbour:  199, 80
+Current:         200, 80
+
+Up Neighbour:    200, 91
+Down Neighbour:  200, 89
+Right Neighbour: 201, 90
+Left Neighbour:  199, 90
+Current:         200, 90
+
+Up Neighbour:    200, 101
+Down Neighbour:  200, 99
+Right Neighbour: 201, 100
+Left Neighbour:  199, 100
+Current:         200, 100
+
+Up Neighbour:    200, 111
+Down Neighbour:  200, 109
+Right Neighbour: 201, 110
+Left Neighbour:  199, 110
+Current:         200, 110
+
+Up Neighbour:    200, 121
+Down Neighbour:  200, 119
+Right Neighbour: 201, 120
+Left Neighbour:  199, 120
+Current:         200, 120
+
+Up Neighbour:    200, 131
+Down Neighbour:  200, 129
+Right Neighbour: 201, 130
+Left Neighbour:  199, 130
+Current:         200, 130
+
+Up Neighbour:    200, 141
+Down Neighbour:  200, 139
+Right Neighbour: 201, 140
+Left Neighbour:  199, 140
+Current:         200, 140
+
+Up Neighbour:    200, 151
+Down Neighbour:  200, 149
+Right Neighbour: 201, 150
+Left Neighbour:  199, 150
+Current:         200, 150
+
+Up Neighbour:    200, 161
+Down Neighbour:  200, 159
+Right Neighbour: 201, 160
+Left Neighbour:  199, 160
+Current:         200, 160
+
+Up Neighbour:    200, 171
+Down Neighbour:  200, 169
+Right Neighbour: 201, 170
+Left Neighbour:  199, 170
+Current:         200, 170
+
+Up Neighbour:    200, 181
+Down Neighbour:  200, 179
+Right Neighbour: 201, 180
+Left Neighbour:  199, 180
+Current:         200, 180
+
+Up Neighbour:    200, 191
+Down Neighbour:  200, 189
+Right Neighbour: 201, 190
+Left Neighbour:  199, 190
+Current:         200, 190
+
+Up Neighbour:    200, 201
+Down Neighbour:  200, 199
+Right Neighbour: 201, 200
+Left Neighbour:  199, 200
+Current:         200, 200
+
+Up Neighbour:    200, 211
+Down Neighbour:  200, 209
+Right Neighbour: 201, 210
+Left Neighbour:  199, 210
+Current:         200, 210
+
+Up Neighbour:    200, 221
+Down Neighbour:  200, 219
+Right Neighbour: 201, 220
+Left Neighbour:  199, 220
+Current:         200, 220
+
+Up Neighbour:    200, 231
+Down Neighbour:  200, 229
+Right Neighbour: 201, 230
+Left Neighbour:  199, 230
+Current:         200, 230
+
+Up Neighbour:    200, 241
+Down Neighbour:  200, 239
+Right Neighbour: 201, 240
+Left Neighbour:  199, 240
+Current:         200, 240
+
+Up Neighbour:    200, 251
+Down Neighbour:  200, 249
+Right Neighbour: 201, 250
+Left Neighbour:  199, 250
+Current:         200, 250
+
+Up Neighbour:    200, 261
+Down Neighbour:  200, 259
+Right Neighbour: 201, 260
+Left Neighbour:  199, 260
+Current:         200, 260
+
+Up Neighbour:    200, 271
+Down Neighbour:  200, 269
+Right Neighbour: 201, 270
+Left Neighbour:  199, 270
+Current:         200, 270
+
+Up Neighbour:    200, 281
+Down Neighbour:  200, 279
+Right Neighbour: 201, 280
+Left Neighbour:  199, 280
+Current:         200, 280
+
+Up Neighbour:    200, 291
+Down Neighbour:  200, 289
+Right Neighbour: 201, 290
+Left Neighbour:  199, 290
+Current:         200, 290
+
+Up Neighbour:    200, 301
+Down Neighbour:  200, 299
+Right Neighbour: 201, 300
+Left Neighbour:  199, 300
+Current:         200, 300
+
