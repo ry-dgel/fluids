@@ -2,6 +2,7 @@
 #include <tgmath.h>
 #include "cell.h"
 #include "data.h"
+#include "init.h"
 
 int main(int argc, char **argv){
     // This is Space
@@ -18,6 +19,16 @@ int main(int argc, char **argv){
     
     // Let there be space
     space = initSpace();
+
+    // Put stuff in space
+    initialize(space);
+    printSpace(space, "init", fNum);
+    
+    // Ensure CFL condition
+    reCalcDeltaT(space);
+
+    //evolve(space)
+    //printSpace(space, "final", fNum)
     
     // Is there space?
     testSpace(space);

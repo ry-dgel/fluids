@@ -37,8 +37,8 @@ Cell **initSpace(void){
             current = &(space)[ix][iy];
 
             // I refuse to allocate unecessary memory for easy notation
-            current -> v = vectorMalloc(2);
-            current -> vPrev = vectorMalloc(2);
+            current -> j = vectorMalloc(2);
+            current -> jPrev = vectorMalloc(2);
 
             current -> pos = intVectorMalloc(2);
             current -> pos[XIND] = ix;
@@ -46,8 +46,8 @@ Cell **initSpace(void){
 
             current -> nbrPls = (Cell **) malloc(2 * sizeof(Cell *));
             current -> nbrMin = (Cell **) malloc(2 * sizeof(Cell *));
-        }
-    }
+        } 
+    } 
     linkSpace(space);
     return space;
 }
@@ -62,25 +62,35 @@ void linkSpace(Cell **space){
             current = &(space)[ix][iy];
 
             if(ix == (nx - 1)){
-                current -> nbrPls[XIND] = NULL;
+                current -> nbrPls[XIND] = current;
             } else {
                 current -> nbrPls[XIND] = &(space)[ix+1][iy];
             }
             if(ix == 0){
-                current -> nbrMin[XIND] = NULL;
+                current -> nbrMin[XIND] = current;
             } else {
                 current -> nbrMin[XIND] = &(space)[ix-1][iy];
             }
             if(iy == (ny - 1)){
-                current -> nbrPls[YIND] = NULL;
+                current -> nbrPls[YIND] = current;
             } else {
                 current -> nbrPls[YIND] = &(space)[ix][iy+1];
             }
             if(iy == 0){
-                current -> nbrMin[YIND] = NULL;
+                current -> nbrMin[YIND] = current;
             } else {
                 current -> nbrMin[YIND] = &(space)[ix][iy-1];
             }
+        }
+    }
+    for(int ix = 0; ix < nx; ix++){
+        for(int iy = 0; iy < ny; iy++){
+            current = &(space[ix][iy]);
+            
+            if(current == current->nbrPls[0]||current == current->nbrPls[1]||current == current->nbrMin[0]||current == current->nbrMin[1]){
+                printf("Ghost at: %d, %d\n", ix, iy);
+            }
+
         }
     }
 }
@@ -104,13 +114,14 @@ Cell *cellGetNeighbour(Cell *current, int direction){
 }
 
 void cellGetPos(Cell *current, double *pos){
-    *pos = DATA.lBound[XLIM] + DATA.dx[XLIM] * (current -> pos[XIND] - 0.5);
+    pos[XIND] = DATA.lBound[XLIM] + DATA.dx[XLIM] * (current->pos[XIND] - 0.5);
+    pos[YIND] = DATA.lBound[YLIM] + DATA.dx[YLIM] * (current->pos[YIND] - 0.5);
 }
 
 void testSpace(Cell **space){
 
     fprintf(stderr, "Start testing the space connections...\n");
-    FILE *output = fopen("Zifkin_CA_4_Results/Zifkin_CA_4.dat", "w");
+    FILE *output = fopen("Zifkin_CA_5_Results/Zifkin_CA_5.dat", "w");
 
     Cell *current, *nbr;
     int sgnj;
@@ -136,10 +147,10 @@ void testSpace(Cell **space){
                 // Get neighbour in j direction
                 nbr  = cellGetNeighbour(current, j);
 
-                if(nbr != NULL){
+                if(nbr != current){
                     if(absj > 0 &&
                        nbr->pos[absj-1] != current->pos[absj-1] + sgnj){
-                        printf("Mismatch found in neighgour positions.");
+                        printf("Mismatch found in neighgour positions\n");
                         exit(0);
                     }
                     // Wether or not to print.
@@ -186,4 +197,63 @@ int intSgn(int x){
     // if x < 0, returns False - True = -1
     // if x = 0, returns False - False = 0
     return (x > 0) - (x < 0);
+}
+
+void printSpace(Cell **space, char *fName, int fNum){
+    char buf[50];
+    sprintf(buf, "Zifkin_CA_5_Results/%s%d.dat", fName, fNum);
+    FILE *file = fopen(buf, "w");
+    Cell *current;
+    double *pos = vectorMalloc(2);
+    
+    for(int ix=1; ix <= DATA.Nmax[XLIM]; ix++){
+        for(int iy=1; iy <= DATA.Nmax[YLIM]; iy++){
+            current = &(space[ix][iy]);
+            cellGetPos(current, pos);
+            fprintf(file, "%f, %f, %f, %f\n", pos[XIND], pos[YIND], 
+                                              current -> rho, current -> eps);
+        }
+    }
+    fclose(file);
+}
+
+void updateGhosts(Cell **space){
+    int ix = 0;
+    int iy = 0;
+    Cell *current;
+
+    for(ix; ix <= DATA.Nmax[XLIM]; ix++){
+    //   printf("Copying to ghost at %d,%d\n", ix, iy);
+        current = &(space[ix][iy]);
+        cellCopy(current->nbrPls[YIND], current);
+    }
+    for(iy; iy <= DATA.Nmax[YLIM]; iy++){
+    //    printf("Copying to ghost at %d,%d\n", ix, iy);
+        current = &(space[ix][iy]);
+        cellCopy(current->nbrMin[XIND], current);
+    }
+    for(ix; ix > 0; ix--){
+    //    printf("Copying to ghost at %d,%d\n", ix, iy);
+        current = &(space[ix][iy]);
+        cellCopy(current->nbrMin[YIND], current);
+    }
+    for(iy; iy > 0; iy--){
+    //    printf("Copying to ghost at %d,%d\n", ix, iy);
+        current = &(space[ix][iy]);
+        cellCopy(current->nbrPls[XIND], current);
+    }
+}
+
+void cellCopy(Cell *src, Cell *targ){
+    targ->rho = src->rho;
+    targ->eps = src->eps;
+    targ->pres = src->pres;
+    targ->j[0] = src->j[0];
+    targ->j[1] = src->j[1];
+
+    targ->rhoPrev = src->rhoPrev;
+    targ->epsPrev = src->epsPrev;
+    targ->presPrev = src->presPrev;
+    targ->jPrev[0] = src->jPrev[0];
+    targ->jPrev[1] = src->jPrev[1];
 }

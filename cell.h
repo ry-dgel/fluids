@@ -14,13 +14,13 @@ typedef struct cell{
     double rho;
     double eps;
     double pres;
-    double *v;
+    double *j;
 
     // Previous Values
     double rhoPrev;
     double epsPrev;
     double presPrev;
-    double *vPrev;
+    double *jPrev;
 
     // Node position
     int *pos;
@@ -54,5 +54,15 @@ Cell *cellGetNeighbour(Cell *current, int dir);
 // get the position of a cell
 void cellGetPos(Cell *current, double *pos);
 
+// return 1 for positive x, -1 for negative x, 0 for x = 0
 int intSgn(int x);
+
+// print out values of rho and eps to a file with position.
+void printSpace(Cell **space, char *fName, int fNum);
+
+// Copy data to ghost cell from their nearest neighbour
+void updateGhosts(Cell **space);
+
+// Copy data from one cell to an other, do not touch neighbour positions.
+void cellCopy(Cell *src, Cell *targ);
 #endif

@@ -1,7 +1,7 @@
 TARGET = main
 LIBS = -lm
 CC = gcc
-CFLAGS = -I -ggdb -Wall -Og
+CFLAGS = -ggdb -I -Wall -O0
 
 default: $(TARGET)
 all: default
@@ -21,5 +21,5 @@ clean:
 	-rm -f *.o
 
 cclean:
-	-rm -f *.0
+	-rm -f *.o
 	-rm -f $(TARGET)

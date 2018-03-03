@@ -16,6 +16,18 @@ typedef struct Data {
 
     // step sizes
     double *dx;
+
+    // gaussian width
+    double width;
+    
+    // rho0
+    double rho0;
+
+    // epsilon0
+    double eps0;
+
+    // gamma
+    double gamma;
 } Data;
 
 // Read in data, into DATA.

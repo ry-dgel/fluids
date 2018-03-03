@@ -36,6 +36,12 @@ int readInData(char *inputFile){
         DATA.dx[i] = DATA.Lmax[i]/DATA.Nmax[i];
     }
 
+    // Read in parameters.
+    fscanf(input, "%lf", &DATA.width);
+    fscanf(input, "%lf", &DATA.rho0);
+    fscanf(input, "%lf", &DATA.eps0);
+    fscanf(input, "%lf", &DATA.gamma);
+
     // Get file number, file name must be input#.dat
     int fNum = inputFile[5] - '0';
 
@@ -49,7 +55,7 @@ int readInData(char *inputFile){
 void printInitData(int fNum){
 
     char fname[50];
-    sprintf(fname, "Zifkin_CA_4_Results/params%d.dat", fNum);
+    sprintf(fname, "Zifkin_CA_5_Results/params%d.dat", fNum);
     FILE *output = fopen(fname, "w");
 
     fprintf(output, "T bounds:    %f, %f\n", DATA.lBound[0], DATA.uBound[0]);
@@ -64,6 +70,10 @@ void printInitData(int fNum){
     fprintf(output, "T Steps:     %d\n", DATA.Nmax[0]);
     fprintf(output, "X Steps:     %d\n", DATA.Nmax[1]);
     fprintf(output, "Y Steps:     %d\n", DATA.Nmax[2]);
+    fprintf(output, "Gaus. Width: %f\n", DATA.width);
+    fprintf(output, "Rho Initial: %f\n", DATA.eps0);
+    fprintf(output, "Epsilon 0:   %f\n", DATA.rho0);
+    fprintf(output, "Gamma:       %f\n", DATA.gamma);
 
     fclose(output);
 }
