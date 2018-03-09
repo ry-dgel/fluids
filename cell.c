@@ -5,10 +5,10 @@
 #include "data.h"
 #include "vctr_mtx.h"
 Cell **cell2dAlloc(int nx, int ny){ // Make top level pointer, x-axis vector.
-    Cell **cells = (Cell **) malloc(nx * sizeof(Cell *));
+    Cell **cells = malloc(nx * sizeof(Cell *));
     for (int i=0; i<nx; i++){
         // Make y-axis vector pointers.
-        cells[i] = (Cell *) malloc(ny * sizeof(Cell));
+        cells[i] = malloc(ny * sizeof(Cell));
     }
     return cells;
 }

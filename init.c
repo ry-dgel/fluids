@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <tgmath.h>
 #include "data.h"
 #include "cell.h"
 #include "init.h"
@@ -34,6 +34,7 @@ void initialize(Cell **space){
             current = &space[ix][iy];
 
             cellGetPos(current, pos);
+            // Get distance to center.
             r = hypot(pos[XIND] - cntr[XIND], pos[YIND] - cntr[YIND]);
             current -> rho = gaussRho(r);
 
@@ -48,6 +49,11 @@ void initialize(Cell **space){
                                           current -> j);
         }
     }
+
+    // Free malloced memory
+    free(cntr);
+    free(pos);
+
     updateGhosts(space);
 }
 
