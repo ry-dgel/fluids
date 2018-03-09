@@ -4,9 +4,7 @@
 #include "cell.h"
 #include "data.h"
 #include "vctr_mtx.h"
-
-Cell **cell2dAlloc(int nx, int ny){
-    // Make top level pointer, x-axis vector.
+Cell **cell2dAlloc(int nx, int ny){ // Make top level pointer, x-axis vector.
     Cell **cells = (Cell **) malloc(nx * sizeof(Cell *));
     for (int i=0; i<nx; i++){
         // Make y-axis vector pointers.
@@ -27,6 +25,8 @@ void cell2dFree(Cell **cells, int nx){
 Cell **initSpace(void){
     Cell **space;
     Cell *current;
+
+    // Make space bigger for ghosts
     int nx = DATA.Nmax[XLIM] + 2;
     int ny = DATA.Nmax[YLIM] + 2;
 
@@ -46,8 +46,8 @@ Cell **initSpace(void){
 
             current -> nbrPls = (Cell **) malloc(2 * sizeof(Cell *));
             current -> nbrMin = (Cell **) malloc(2 * sizeof(Cell *));
-        } 
-    } 
+        }
+    }
     linkSpace(space);
     return space;
 }
@@ -81,16 +81,6 @@ void linkSpace(Cell **space){
             } else {
                 current -> nbrMin[YIND] = &(space)[ix][iy-1];
             }
-        }
-    }
-    for(int ix = 0; ix < nx; ix++){
-        for(int iy = 0; iy < ny; iy++){
-            current = &(space[ix][iy]);
-            
-            if(current == current->nbrPls[0]||current == current->nbrPls[1]||current == current->nbrMin[0]||current == current->nbrMin[1]){
-                printf("Ghost at: %d, %d\n", ix, iy);
-            }
-
         }
     }
 }
@@ -135,7 +125,7 @@ void testSpace(Cell **space){
 
     for(int ix = 0; ix < nx; ix++){
         for(int iy = 0; iy < ny; iy++){
-            current = &space[ix][iy];
+            current = &(space[ix][iy]);
             for(int i = 0; i < 5; i++){
                 // Get direction to check in
                 j = js[i];
@@ -146,8 +136,9 @@ void testSpace(Cell **space){
 
                 // Get neighbour in j direction
                 nbr  = cellGetNeighbour(current, j);
-
-                if(nbr != current){
+                
+                // Check if non current pointer is actually current.
+                if(nbr != current || j == 0){
                     if(absj > 0 &&
                        nbr->pos[absj-1] != current->pos[absj-1] + sgnj){
                         printf("Mismatch found in neighgour positions\n");
@@ -181,7 +172,7 @@ void testSpace(Cell **space){
                 } else if(ix != 0 && iy != 0 && ix != nx - 1 && iy != ny - 1 ){
                     // Check if NULL pointer doesn't belong to a ghost,
                     // in which case halt and catch fire.
-                    printf("Non ghost with null pointer at ix = %d, iy = %d\n",
+                    printf("Non ghost pointing to self at ix = %d, iy = %d\n",
                            ix, iy);
                     exit(0);
                 }
@@ -206,54 +197,68 @@ void printSpace(Cell **space, char *fName, int fNum){
     Cell *current;
     double *pos = vectorMalloc(2);
     
+    // Only loop over "real" cells.
     for(int ix=1; ix <= DATA.Nmax[XLIM]; ix++){
         for(int iy=1; iy <= DATA.Nmax[YLIM]; iy++){
             current = &(space[ix][iy]);
             cellGetPos(current, pos);
-            fprintf(file, "%f, %f, %f, %f\n", pos[XIND], pos[YIND], 
+            fprintf(file, "%f, %f, %f, %f\n", pos[XIND], pos[YIND],
                                               current -> rho, current -> eps);
         }
     }
     fclose(file);
+    free(pos);
 }
 
+// Travel around the perimeter, updating the ghosts.
 void updateGhosts(Cell **space){
     int ix = 0;
     int iy = 0;
     Cell *current;
 
-    for(ix; ix <= DATA.Nmax[XLIM]; ix++){
-    //   printf("Copying to ghost at %d,%d\n", ix, iy);
+    // Go along bottom row. (iy = 0)
+    for(; ix <= DATA.Nmax[XLIM] + 1; ix++){
         current = &(space[ix][iy]);
         cellCopy(current->nbrPls[YIND], current);
     }
-    for(iy; iy <= DATA.Nmax[YLIM]; iy++){
-    //    printf("Copying to ghost at %d,%d\n", ix, iy);
+    // Apparantly it gets incremented even when the loop doesn't run??
+    ix--;
+
+    // Advance y so as not to repeat corner case.
+    iy++;
+    // Go along right column. (ix = xmax + 1)
+    for(; iy <= DATA.Nmax[YLIM] + 1; iy++){
         current = &(space[ix][iy]);
         cellCopy(current->nbrMin[XIND], current);
     }
-    for(ix; ix > 0; ix--){
-    //    printf("Copying to ghost at %d,%d\n", ix, iy);
+    iy--;
+
+    ix--;
+    // Go along top row. (iy = ymax + 1)
+    for(; ix >= 0; ix--){
         current = &(space[ix][iy]);
         cellCopy(current->nbrMin[YIND], current);
     }
-    for(iy; iy > 0; iy--){
-    //    printf("Copying to ghost at %d,%d\n", ix, iy);
+    ix++;
+
+    iy--;
+    // Go along left column. (ix = 0). 0,0 already done.
+    for(; iy > 0; iy--){
         current = &(space[ix][iy]);
         cellCopy(current->nbrPls[XIND], current);
     }
 }
 
 void cellCopy(Cell *src, Cell *targ){
-    targ->rho = src->rho;
-    targ->eps = src->eps;
-    targ->pres = src->pres;
-    targ->j[0] = src->j[0];
-    targ->j[1] = src->j[1];
+    targ -> rho     = src -> rho;
+    targ -> eps     = src -> eps;
+    targ -> pres    = src -> pres;
+    targ -> j[XIND] = src -> j[XIND];
+    targ -> j[YIND] = src -> j[YIND];
 
-    targ->rhoPrev = src->rhoPrev;
-    targ->epsPrev = src->epsPrev;
-    targ->presPrev = src->presPrev;
-    targ->jPrev[0] = src->jPrev[0];
-    targ->jPrev[1] = src->jPrev[1];
+    targ -> rhoPrev     = src -> rhoPrev;
+    targ -> epsPrev     = src -> epsPrev;
+    targ -> presPrev    = src -> presPrev;
+    targ -> jPrev[XIND] = src -> jPrev[XIND];
+    targ -> jPrev[YIND] = src -> jPrev[YIND];
 }

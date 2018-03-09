@@ -22,7 +22,7 @@ int main(int argc, char **argv){
 
     // Put stuff in space
     initialize(space);
-    printSpace(space, "init", fNum);
+    printSpace(space, "Zifkin_CA_5_initial", fNum);
     
     // Ensure CFL condition
     reCalcDeltaT(space);
@@ -32,6 +32,6 @@ int main(int argc, char **argv){
     
     // Is there space?
     testSpace(space);
-
+    
     return 1;
 }
