@@ -7,4 +7,4 @@ Running:
     ./main input1.dat
 
 Input file must be named in format "input#.dat" where # is a single number.
-This produces output params#.dat and Zifkin_CA_4.dat
+This produces output params#.dat, Zifkin_CA_5.dat and Zifkin_CA_5_init1.dat
