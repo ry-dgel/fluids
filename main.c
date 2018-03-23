@@ -3,6 +3,8 @@
 #include "cell.h"
 #include "data.h"
 #include "init.h"
+#include "flux.h"
+#include "evolve.h"
 
 int main(int argc, char **argv){
     // This is Space
@@ -20,18 +22,21 @@ int main(int argc, char **argv){
     // Let there be space
     space = initSpace();
 
+    // Is there space?
+    testSpace(space);
+
     // Put stuff in space
     initialize(space);
-    printSpace(space, "Zifkin_CA_5_initial", fNum);
+    printSpace(space, "Zifkin_CA_6_initial", fNum);
     
     // Ensure CFL condition
     reCalcDeltaT(space);
-
-    //evolve(space)
-    //printSpace(space, "final", fNum)
     
-    // Is there space?
-    testSpace(space);
+    fluxTest(space);
+
+    evolve(space);
+
+    // printSpace(space, "final", fNum);
     
     return 1;
 }

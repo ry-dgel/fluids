@@ -111,7 +111,7 @@ void cellGetPos(Cell *current, double *pos){
 void testSpace(Cell **space){
 
     fprintf(stderr, "Start testing the space connections...\n");
-    FILE *output = fopen("Zifkin_CA_5_Results/Zifkin_CA_5.dat", "w");
+    FILE *output = fopen("Zifkin_CA_6_Results/Zifkin_CA_6.dat", "w");
 
     Cell *current, *nbr;
     int sgnj;
@@ -192,7 +192,7 @@ int intSgn(int x){
 
 void printSpace(Cell **space, char *fName, int fNum){
     char buf[50];
-    sprintf(buf, "Zifkin_CA_5_Results/%s%d.dat", fName, fNum);
+    sprintf(buf, "Zifkin_CA_6_Results/%s%d.dat", fName, fNum);
     FILE *file = fopen(buf, "w");
     Cell *current;
     double *pos = vectorMalloc(2);

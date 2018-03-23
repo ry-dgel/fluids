@@ -38,8 +38,8 @@ void initialize(Cell **space){
             r = hypot(pos[XIND] - cntr[XIND], pos[YIND] - cntr[YIND]);
             current -> rho = gaussRho(r);
 
-            current -> j[XIND] = -0.1 * (pos[XIND] - cntr[XIND]);
-            current -> j[YIND] =  0.1 * (pos[YIND] - cntr[YIND]);
+            current -> j[XIND] = -0.1 * (pos[YIND] - cntr[YIND]);
+            current -> j[YIND] =  0.1 * (pos[XIND] - cntr[XIND]);
 
             j2 = pow(current -> j[XIND], 2) + pow(current -> j[YIND], 2);
             current -> eps = gaussEps(r, j2, current->rho);

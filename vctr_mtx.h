@@ -16,4 +16,9 @@ void mtxFree(double **matrix, int n);
 // copy vector a to vector b
 void copyVector(double *a, double *b, int n);
 
+// dot product
+double dotProd(double *a, double *b, int n);
+
+// Norm
+double norm(double *a, int n);
 #endif

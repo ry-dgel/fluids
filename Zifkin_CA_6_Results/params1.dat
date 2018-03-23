@@ -1,0 +1,17 @@
+T bounds:    0.000000, 5.000000
+X bounds:    0.000000, 10.000000
+Y bounds:    0.000000, 15.000000
+T Size:      5.000000
+X Size:      10.000000
+Y Size:      15.000000
+Time Step:   0.005000
+X Step:      0.050000
+Y Step:      0.050000
+T Steps:     1000
+X Steps:     200
+Y Steps:     300
+Gaus. Width: 0.500000
+Rho Initial: 2.400000
+Epsilon 0:   1.200000
+Gamma:       1.400000
+Theta Flux:  1.500000

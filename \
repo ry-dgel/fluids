@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <tgmath.h>
+#include "vctr_mtx.h"
+#include "flux.h"
+#include "eos.h"
+
+DivFlux *initDivFlux(void){
+    DivFlux *fl;
+
+    fl = malloc(sizeof(DivFlux));
+    fl -> divFl = malloc(4 * sizeof(double));
+    fl -> fluxFunc = malloc(4 * sizeof(FluxFunc));
+
+    fl -> fluxFunc[0] = massFlux;
+    fl -> fluxFunc[1] = momentumFluxX;
+    fl -> fluxFunc[2] = momentumFluxY;
+    fl -> fluxFunc[3] = energyFlux;
+
+    return fl;
+}
+
+double massFlux(Cell *current, int direc){
+    return current -> j[direc];
+}
+
+double momentumFlux(Cell *current, int i, int j){
+    double *J       = current -> j;
+    double rho      = current -> rho;
+    double pressure = current -> pres;
+
+    return J[i] * J[j] / (rho + pressure * KRON(i,j))
+}

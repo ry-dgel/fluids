@@ -28,6 +28,9 @@ typedef struct Data {
 
     // gamma
     double gamma;
+
+    // theta flux
+    double tf;
 } Data;
 
 // Read in data, into DATA.

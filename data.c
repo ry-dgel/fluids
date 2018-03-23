@@ -41,6 +41,7 @@ int readInData(char *inputFile){
     fscanf(input, "%lf", &DATA.rho0);
     fscanf(input, "%lf", &DATA.eps0);
     fscanf(input, "%lf", &DATA.gamma);
+    fscanf(input, "%lf", &DATA.tf);
 
     // Get file number, file name must be input#.dat
     int fNum = inputFile[5] - '0';
@@ -55,7 +56,7 @@ int readInData(char *inputFile){
 void printInitData(int fNum){
 
     char fname[50];
-    sprintf(fname, "Zifkin_CA_5_Results/params%d.dat", fNum);
+    sprintf(fname, "Zifkin_CA_6_Results/params%d.dat", fNum);
     FILE *output = fopen(fname, "w");
 
     fprintf(output, "T bounds:    %f, %f\n", DATA.lBound[0], DATA.uBound[0]);
@@ -74,6 +75,7 @@ void printInitData(int fNum){
     fprintf(output, "Rho Initial: %f\n", DATA.eps0);
     fprintf(output, "Epsilon 0:   %f\n", DATA.rho0);
     fprintf(output, "Gamma:       %f\n", DATA.gamma);
+    fprintf(output, "Theta Flux:  %f\n", DATA.tf);
 
     fclose(output);
 }
