@@ -15,9 +15,9 @@ Cell **initBoundaryCells(){
 
     // "This is a small price to pay." It's gonna be like
     // 200*300*7*20*8 Bytes, that's a pretty big addition to a memory footprint
-    // I'll just use macros to define easier to read indexing.
+    // so I'm doing it differently
     // for dir: [0, 1, 2, 3] = [Left, Down, Right, Up]
-    // for lr: 0 is from inside left, 1 is from right.
+    // for lr: 0 is from left, 1 is from right.
     cells = cell2dAlloc(4, 2);
     for(dir = 0; dir < 4; dir++){
         for(lr = 0; lr < 2; lr++){
@@ -34,7 +34,7 @@ void testBoundaryCells(Cell **space, Cell **bdryCells){
 
     Cell *current;
     double *pos = vectorMalloc(2);
-    double avg = 0;
+    double avg;
 
     int rkStep = 1;
 
@@ -43,15 +43,18 @@ void testBoundaryCells(Cell **space, Cell **bdryCells){
 
     for(int ix = 1; ix <= nx; ix++){
         for(int iy = 1; iy <= ny; iy++){
+            avg=0;
             current = &(space[ix][iy]);
             makeBoundaryCells(current, bdryCells, rkStep);
             cellGetPos(current, pos);
             for (int dir = 0; dir < 4; dir++){
                 for (int lr = 0; lr < 2; lr++){
-                    avg += bdryCells[dir][lr].rhoPrev;
+                    printf("rho: %f\n",bdryCells[dir][lr].rho);
+                    avg += bdryCells[dir][lr].rho;
                 }
             }
             avg /= 8;
+            printf("avg: %f\n", avg);
             fprintf(f, "%f, %f, %f\n", pos[XIND], pos[YIND], avg);
         }
         fprintf(f, "\n");
@@ -59,7 +62,7 @@ void testBoundaryCells(Cell **space, Cell **bdryCells){
 }
 
 void makeBoundaryCells(Cell *current, Cell **bdryCells, int rkStep){
-    for(int dir = 0; dir < 3; dir++){
+    for(int dir = 0; dir < 4; dir++){
         for(int lr = 0; lr < 2; lr++){
             boundaryCell(current, &(bdryCells[dir][lr]), dir, lr, rkStep);
         }
@@ -73,7 +76,7 @@ void boundaryCell(Cell *current, Cell *bdryCell, int dir, int lr, int rkStep){
     // Due to my choice of indexing, even indices are along x axis,
     // odd indices are along y axis.
     int direc = dir % 2;
-    
+
     curCell = getCurrentCell(current, dir, lr);
     plsNbr = curCell -> nbrPls[direc];
     minNbr = curCell -> nbrMin[direc];
@@ -84,29 +87,29 @@ void boundaryCell(Cell *current, Cell *bdryCell, int dir, int lr, int rkStep){
         fp1 = plsNbr  -> rho;
         fm1 = minNbr  -> rho;
         f = f0 - (2*lr-1) * minmodA(fp1, f0, fm1)/2;
-        bdryCell -> rhoPrev = f;
+        bdryCell -> rho = f;
 
         f0  = curCell -> j[XIND];
         fp1 = plsNbr  -> j[XIND];
         fm1 = minNbr  -> j[XIND];
         f = f0 - (2*lr-1) * minmodA(fp1, f0, fm1)/2;
-        bdryCell -> jPrev[XIND] = f;
+        bdryCell -> j[XIND] = f;
 
         f0  = curCell -> j[YIND];
         fp1 = plsNbr  -> j[YIND];
         fm1 = minNbr  -> j[YIND];
         f = f0 - (2*lr-1) * minmodA(fp1, f0, fm1)/2;
-        bdryCell -> jPrev[YIND] = f;
+        bdryCell -> j[YIND] = f;
 
         f0  = curCell -> eps;
         fp1 = plsNbr  -> eps;
         fm1 = minNbr  -> eps;
         f = f0 - (2*lr-1) * minmodA(fp1, f0, fm1)/2;
-        bdryCell -> epsPrev = f;
+        bdryCell -> eps = f;
 
-        bdryCell -> presPrev = eosPressure(bdryCell -> rhoPrev, 
-                                           bdryCell -> epsPrev, 
-                                           bdryCell -> jPrev);
+        bdryCell -> pres = eosPressure(bdryCell -> rho,
+                                       bdryCell -> eps,
+                                       bdryCell -> j);
     }
     else if(rkStep == 2){
         //mass density
@@ -134,7 +137,8 @@ void boundaryCell(Cell *current, Cell *bdryCell, int dir, int lr, int rkStep){
         f = f0 - (2*lr-1) * minmodA(fp1, f0, fm1)/2;
         bdryCell -> eps = f;
 
-        bdryCell -> pres = eosPressure(bdryCell -> rho, bdryCell -> eps, 
+        bdryCell -> pres = eosPressure(bdryCell -> rho, 
+                                       bdryCell -> eps,
                                        bdryCell -> j);
     }
     else{
@@ -145,7 +149,7 @@ void boundaryCell(Cell *current, Cell *bdryCell, int dir, int lr, int rkStep){
 
 Cell *getCurrentCell(Cell *current, int dir, int lr){
     // Either left or down.
-    if(dir < 2){ 
+    if(dir < 2){
         // From right, which is from within, so current.
         if(lr == 1){
             return current;
@@ -173,15 +177,15 @@ Cell *getCurrentCell(Cell *current, int dir, int lr){
 double minmodA(double up, double u, double um){
     double tf = DATA.tf;
 
-    double diffup = (up - u) * tf;                                 
-    double diffdn = (u - um) * tf;                                 
-    double diffmd = (up - um) * 0.5;                                            
-                                                                                
-    if(up > u && u > um){                                                       
-        return MIN(MIN(diffup, diffdn), diffmd);                                
-    } else if(um > u && u > up){                                                
-        return MAX(MAX(diffup, diffdn), diffmd);                                
-    } else {                                                                    
-        return 0.0;                                                             
-    } 
+    double diffup = (up - u) * tf;
+    double diffdn = (u - um) * tf;
+    double diffmd = (up - um) * 0.5;
+
+    if(up > u && u > um){
+        return MIN(MIN(diffup, diffdn), diffmd);
+    } else if(um > u && u > up){
+        return MAX(MAX(diffup, diffdn), diffmd);
+    } else {
+        return 0.0;
+    }
 }
